@@ -1,0 +1,72 @@
+[2025-09-04 22:56:35]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+@e:\51_practise\17_DS18B20\17_DS18B20\build\Debug\17_DS18B20.lnp .\build\Debug\.obj\src\Com\Com_util.o,.\build\Debug\.obj\src\Dri\Dri_1_Wire.o,.\build\Debug\.obj\src\Dri\Dri_IIC.o,.\build\Debug\.obj\src\Int\Int_DS18B20.o,.\build\Debug\.obj\src\Int\Int_OLED.o,.\build\Debug\.obj\src\main.o TO .\build\Debug\17_DS18B20
+PRINT(.\build\Debug\17_DS18B20.map) REMOVEUNUSED
+
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  ComDelay50us
+    MODULE:  .\BUILD\DEBUG\.OBJ\SRC\DRI\DRI_1_WIRE.O (DRI_1_WIRE)
+
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ComDelay50us
+    MODULE:  .\BUILD\DEBUG\.OBJ\SRC\DRI\DRI_1_WIRE.O (DRI_1_WIRE)
+    ADDRESS: 100076BH
+
+Program Size: data=48.1 xdata=0 const=1532 code=2044
+LX51 RUN COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+
+[2025-09-04 23:00:35]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+@e:\51_practise\17_DS18B20\17_DS18B20\build\Debug\17_DS18B20.lnp .\build\Debug\.obj\src\Com\Com_util.o,.\build\Debug\.obj\src\Dri\Dri_1_Wire.o,.\build\Debug\.obj\src\Dri\Dri_IIC.o,.\build\Debug\.obj\src\Int\Int_DS18B20.o,.\build\Debug\.obj\src\Int\Int_OLED.o,.\build\Debug\.obj\src\main.o TO .\build\Debug\17_DS18B20
+PRINT(.\build\Debug\17_DS18B20.map) REMOVEUNUSED
+
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  ComDelay50us
+    MODULE:  .\BUILD\DEBUG\.OBJ\SRC\DRI\DRI_1_WIRE.O (DRI_1_WIRE)
+
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ComDelay50us
+    MODULE:  .\BUILD\DEBUG\.OBJ\SRC\DRI\DRI_1_WIRE.O (DRI_1_WIRE)
+    ADDRESS: 1000701H
+
+Program Size: data=48.1 xdata=0 const=1532 code=2081
+LX51 RUN COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+
+[2025-09-04 23:00:49]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+@e:\51_practise\17_DS18B20\17_DS18B20\build\Debug\17_DS18B20.lnp .\build\Debug\.obj\src\Com\Com_util.o,.\build\Debug\.obj\src\Dri\Dri_1_Wire.o,.\build\Debug\.obj\src\Dri\Dri_IIC.o,.\build\Debug\.obj\src\Int\Int_DS18B20.o,.\build\Debug\.obj\src\Int\Int_OLED.o,.\build\Debug\.obj\src\main.o TO .\build\Debug\17_DS18B20
+PRINT(.\build\Debug\17_DS18B20.map) REMOVEUNUSED
+
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  ComDelay50us
+    MODULE:  .\BUILD\DEBUG\.OBJ\SRC\DRI\DRI_1_WIRE.O (DRI_1_WIRE)
+
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ComDelay50us
+    MODULE:  .\BUILD\DEBUG\.OBJ\SRC\DRI\DRI_1_WIRE.O (DRI_1_WIRE)
+    ADDRESS: 1000701H
+
+Program Size: data=48.1 xdata=0 const=1532 code=2081
+LX51 RUN COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+
+[2025-09-04 23:01:58]	[done]
+	build successfully !
+
+[2025-09-04 23:02:54]	[done]
+	build successfully !
+

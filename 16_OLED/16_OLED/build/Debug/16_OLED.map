@@ -1,0 +1,355 @@
+LX51 LINKER/LOCATER V4.66.100.0                                                         09/16/2025  21:11:27  PAGE 1
+
+
+LX51 LINKER/LOCATER V4.66.100.0, INVOKED BY:
+D:\KEILL_5\C51\BIN\LX51.EXE .\BUILD\DEBUG\.OBJ\SRC\COM\COM_UTIL.O, .\BUILD\DEBUG\.OBJ\SRC\DRI\DRI_IIC.O, .\BUILD\DEBUG\.
+>> OBJ\SRC\INT\INT_OLED.O, .\BUILD\DEBUG\.OBJ\SRC\MAIN.O TO .\BUILD\DEBUG\16_OLED PRINT (.\build\Debug\16_OLED.map) REMO
+>> VEUNUSED
+
+
+CPU MODE:     8051 MODE
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  .\BUILD\DEBUG\.OBJ\SRC\COM\COM_UTIL.O (COM_UTIL)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\DEBUG\.OBJ\SRC\DRI\DRI_IIC.O (DRI_IIC)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\DEBUG\.OBJ\SRC\INT\INT_OLED.O (INT_OLED)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\DEBUG\.OBJ\SRC\MAIN.O (MAIN)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  D:\KEILL_5\C51\LIB\C51S.LIB (?C_STARTUP)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\KEILL_5\C51\LIB\C51S.LIB (?C?COPY)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\KEILL_5\C51\LIB\C51S.LIB (?C?CLDOPTR)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\KEILL_5\C51\LIB\C51S.LIB (PRINTF)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\KEILL_5\C51\LIB\C51S.LIB (?C?CLDPTR)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\KEILL_5\C51\LIB\C51S.LIB (?C?CSTPTR)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\KEILL_5\C51\LIB\C51S.LIB (?C?PLDIIDATA)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\KEILL_5\C51\LIB\C51S.LIB (?C?CCASE)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\KEILL_5\C51\LIB\C51S.LIB (PUTCHAR)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+
+
+ACTIVE MEMORY CLASSES OF MODULE:  .\BUILD\DEBUG\16_OLED (COM_UTIL)
+
+BASE        START       END         USED      MEMORY CLASS
+==========================================================
+C:000000H   C:000000H   C:00FFFFH   000756H   CODE
+I:000020H.0 I:000020H.0 I:00002FH.7 000001H.1 BIT
+I:000000H   I:000000H   I:00007FH   00002EH   DATA
+C:000000H   C:000000H   C:00FFFFH   00060FH   CONST
+I:000000H   I:000000H   I:0000FFH   000001H   IDATA
+
+
+MEMORY MAP OF MODULE:  .\BUILD\DEBUG\16_OLED (COM_UTIL)
+
+
+START     STOP      LENGTH    ALIGN  RELOC    MEMORY CLASS   SEGMENT NAME
+=========================================================================
+
+* * * * * * * * * * *   D A T A   M E M O R Y   * * * * * * * * * * * * *
+000000H   000007H   000008H   ---    AT..     DATA           "REG BANK 0"
+000008H.0 00001FH.7 000018H.0 ---    ---      **GAP**
+000020H.0 000021H.0 000001H.1 BIT    UNIT     BIT            _BIT_GROUP_
+000021H.1 000021H   000000H.7 ---    ---      **GAP**
+000022H   000047H   000026H   BYTE   UNIT     DATA           _DATA_GROUP_
+000048H   000048H   000001H   BYTE   UNIT     IDATA          ?STACK
+
+* * * * * * * * * * *   C O D E   M E M O R Y   * * * * * * * * * * * * *
+000000H   000002H   000003H   ---    OFFS..   CODE           ?CO??C_STARTUP?0
+LX51 LINKER/LOCATER V4.66.100.0                                                       09/16/2025  21:11:27  PAGE 2
+
+
+000003H   00035EH   00035CH   BYTE   UNIT     CODE           ?PR?PRINTF?PRINTF
+00035FH   0004E2H   000184H   BYTE   UNIT     CODE           ?C?LIB_CODE
+0004E3H   000571H   00008FH   BYTE   UNIT     CODE           ?PR?_INT_OLED_SHOWSTR?INT_OLED
+000572H   0005BAH   000049H   BYTE   UNIT     CODE           ?PR?_INT_OLED_WRITEDATE?INT_OLED
+0005BBH   0005FCH   000042H   BYTE   UNIT     CODE           ?PR?_INT_OLED_WRITECOMMAND?INT_OLED
+0005FDH   000637H   00003BH   BYTE   UNIT     CODE           ?PR?INT_OLED_CLEAN?INT_OLED
+000638H   00066BH   000034H   BYTE   UNIT     CODE           ?PR?MAIN?MAIN
+00066CH   00069AH   00002FH   BYTE   UNIT     CODE           ?PR?_INT_OLED_SHOWNUM?INT_OLED
+00069BH   0006C3H   000029H   BYTE   UNIT     CODE           ?PR?_DRI_IIC_SENDBYTE?DRI_IIC
+0006C4H   0006EAH   000027H   BYTE   UNIT     CODE           ?PR?PUTCHAR?PUTCHAR
+0006EBH   00070FH   000025H   BYTE   UNIT     CODE           ?PR?_INT_OLED_SETPOINTER?INT_OLED
+000710H   00072CH   00001DH   BYTE   UNIT     CODE           ?PR?INT_OLED_INIT?INT_OLED
+00072DH   000739H   00000DH   BYTE   UNIT     CODE           ?PR?DRI_IIC_RECEIVEACK?DRI_IIC
+00073AH   000745H   00000CH   BYTE   UNIT     CODE           ?C_C51STARTUP
+000746H   00074EH   000009H   BYTE   UNIT     CODE           ?PR?DRI_IIC_START?DRI_IIC
+00074FH   000755H   000007H   BYTE   UNIT     CODE           ?PR?DRI_IIC_STOP?DRI_IIC
+000756H   000D51H   0005FCH   BYTE   UNIT     CONST          ?CO?INT_OLED
+000D52H   000D64H   000013H   BYTE   UNIT     CONST          ?CO?MAIN
+
+* * * * * * * * *   R E M O V E D     S E G M E N T S   * * * * * * * *
+   *DEL*:           000013H   BYTE   UNIT     CODE           ?PR?_COM_UTIL_DELAYMS?COM_UTIL
+   *DEL*:           000018H   BYTE   UNIT     CODE           ?PR?DRI_IIC_RECEIVEBYTE?DRI_IIC
+   *DEL*:           000009H   BYTE   UNIT     CODE           ?PR?DRI_SENDACK?DRI_IIC
+   *DEL*:           000000H.1 BIT    UNIT     BIT            ?BI?DRI_SENDACK?DRI_IIC
+
+
+
+OVERLAY MAP OF MODULE:   .\BUILD\DEBUG\16_OLED (COM_UTIL)
+
+
+FUNCTION/MODULE                       BIT_GROUP   DATA_GROUP 
+--> CALLED FUNCTION/MODULE           START  STOP  START  STOP
+=============================================================
+?C_C51STARTUP                        ----- -----  ----- -----
+  +--> MAIN/MAIN
+
+MAIN/MAIN                            ----- -----  ----- -----
+  +--> INT_OLED_INIT/INT_OLED
+  +--> INT_OLED_CLEAN/INT_OLED
+  +--> _INT_OLED_SHOWSTR/INT_OLED
+  +--> _INT_OLED_SHOWNUM/INT_OLED
+
+INT_OLED_INIT/INT_OLED               ----- -----  0022H 0027H
+  +--> _INT_OLED_WRITECOMMAND/INT_OLED
+
+_INT_OLED_WRITECOMMAND/INT_OLED      ----- -----  003FH 0043H
+  +--> DRI_IIC_START/DRI_IIC
+  +--> _DRI_IIC_SENDBYTE/DRI_IIC
+  +--> DRI_IIC_RECEIVEACK/DRI_IIC
+  +--> DRI_IIC_STOP/DRI_IIC
+
+DRI_IIC_START/DRI_IIC                ----- -----  ----- -----
+
+_DRI_IIC_SENDBYTE/DRI_IIC            ----- -----  ----- -----
+
+DRI_IIC_RECEIVEACK/DRI_IIC           20H.0 20H.0  ----- -----
+
+DRI_IIC_STOP/DRI_IIC                 ----- -----  ----- -----
+
+INT_OLED_CLEAN/INT_OLED              ----- -----  0022H 002CH
+  +--> _INT_OLED_WRITECOMMAND/INT_OLED
+  +--> _INT_OLED_WRITEDATE/INT_OLED
+
+_INT_OLED_WRITEDATE/INT_OLED         ----- -----  003CH 0040H
+  +--> DRI_IIC_START/DRI_IIC
+LX51 LINKER/LOCATER V4.66.100.0                                                       09/16/2025  21:11:27  PAGE 3
+
+
+  +--> _DRI_IIC_SENDBYTE/DRI_IIC
+  +--> DRI_IIC_RECEIVEACK/DRI_IIC
+  +--> DRI_IIC_STOP/DRI_IIC
+
+_INT_OLED_SHOWSTR/INT_OLED           ----- -----  0034H 003BH
+  +--> _INT_OLED_WRITECOMMAND/INT_OLED
+  +--> _INT_OLED_SETPOINTER/INT_OLED
+  +--> _INT_OLED_WRITEDATE/INT_OLED
+
+_INT_OLED_SETPOINTER/INT_OLED        ----- -----  003CH 003EH
+  +--> _INT_OLED_WRITECOMMAND/INT_OLED
+
+_INT_OLED_SHOWNUM/INT_OLED           ----- -----  0022H 0033H
+  +--> PRINTF/PRINTF
+  +--> _INT_OLED_SHOWSTR/INT_OLED
+
+PRINTF/PRINTF                        20H.0 21H.0  0034H 0047H
+  +--> PUTCHAR/PUTCHAR
+
+PUTCHAR/PUTCHAR                      ----- -----  ----- -----
+
+
+
+PUBLIC SYMBOLS OF MODULE:  .\BUILD\DEBUG\16_OLED (COM_UTIL)
+
+
+      VALUE       CLASS    TYPE      PUBLIC SYMBOL NAME
+      =================================================
+      00000022H   DATA     BYTE      ?_Int_OLED_ShowNum?BYTE
+      00000034H   DATA     ---       ?_PRINTF517?BYTE
+      00000034H   DATA     ---       ?_PRINTF?BYTE
+      00000034H   DATA     ---       ?_SPRINTF517?BYTE
+      00000034H   DATA     ---       ?_SPRINTF?BYTE
+      010004BDH   CODE     ---       ?C?CCASE
+      01000455H   CODE     ---       ?C?CLDOPTR
+      01000482H   CODE     ---       ?C?CLDPTR
+      00000000H   NUMBER   ---       ?C?CODESEG
+      0100042FH   CODE     ---       ?C?COPY
+      0100049BH   CODE     ---       ?C?CSTPTR
+      010004ADH   CODE     ---       ?C?PLDIIDATA
+      00000000H   NUMBER   ---       ?C?XDATASEG
+      01000638H   CODE     ---       ?C_START
+      01000000H   CODE     ---       ?C_STARTUP
+*DEL*:00000000H.0 BIT      BIT       ?Dri_SendAck?BIT
+*DEL*:00000000H   CODE     ---       _Com_util_DelayMs
+      0100069BH   CODE     ---       _Dri_IIC_SendByte
+      010006F3H   CODE     ---       _Int_OLED_SetPointer
+      0100066CH   CODE     ---       _Int_OLED_ShowNum
+      010004E3H   CODE     ---       _Int_OLED_ShowStr
+      010005BBH   CODE     ---       _Int_OLED_WriteCommand
+      01000579H   CODE     ---       _Int_OLED_WriteDate
+      01000065H   CODE     ---       _PRINTF
+      01000065H   CODE     ---       _PRINTF517
+      010006C4H   CODE     ---       _PUTCHAR
+      0100005FH   CODE     ---       _SPRINTF
+      0100005FH   CODE     ---       _SPRINTF517
+      0100072DH   CODE     ---       Dri_IIC_ReceiveAck
+*DEL*:00000000H   CODE     ---       Dri_IIC_ReceiveByte
+      01000746H   CODE     ---       Dri_IIC_Start
+      0100074FH   CODE     ---       Dri_IIC_Stop
+*DEL*:00000000H   CODE     ---       Dri_SendAck
+      010005FDH   CODE     ---       Int_OLED_Clean
+      0100075AH   CONST    ---       Int_OLED_Font
+      01000710H   CODE     ---       Int_OLED_Init
+      01000638H   CODE     ---       main
+LX51 LINKER/LOCATER V4.66.100.0                                                       09/16/2025  21:11:27  PAGE 4
+
+
+
+
+
+SYMBOL TABLE OF MODULE:  .\BUILD\DEBUG\16_OLED (COM_UTIL)
+
+      VALUE       REP       CLASS    TYPE      SYMBOL NAME
+      ====================================================
+      ---         MODULE    ---      ---       COM_UTIL
+      00000006H   SYMBOL    DATA     VOID      i
+      00000005H   SYMBOL    DATA     VOID      j
+
+      ---         MODULE    ---      ---       DRI_IIC
+      0100074FH   PUBLIC    CODE     ---       Dri_IIC_Stop
+      0100072DH   PUBLIC    CODE     ---       Dri_IIC_ReceiveAck
+      0100069BH   PUBLIC    CODE     ---       _Dri_IIC_SendByte
+      01000746H   PUBLIC    CODE     ---       Dri_IIC_Start
+
+      01000746H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      0100069BH   BLOCK     CODE     ---       LVL=0
+      0100069DH   BLOCK     CODE     NEAR LAB  LVL=1
+      00000004H   SYMBOL    DATA     VOID      i
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      0100072DH   BLOCK     CODE     ---       LVL=0
+      0100072DH   BLOCK     CODE     NEAR LAB  LVL=1
+      00000020H.0 SYMBOL    BIT      VOID      ack
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+      00000006H   SYMBOL    DATA     VOID      i
+      00000007H   SYMBOL    DATA     VOID      byte
+
+      0100074FH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       INT_OLED
+      0100075AH   PUBLIC    CONST    ---       Int_OLED_Font
+      00000022H   PUBLIC    DATA     BYTE      ?_Int_OLED_ShowNum?BYTE
+      0100066CH   PUBLIC    CODE     ---       _Int_OLED_ShowNum
+      010004E3H   PUBLIC    CODE     ---       _Int_OLED_ShowStr
+      010006F3H   PUBLIC    CODE     ---       _Int_OLED_SetPointer
+      010005FDH   PUBLIC    CODE     ---       Int_OLED_Clean
+      01000710H   PUBLIC    CODE     ---       Int_OLED_Init
+      010005BBH   PUBLIC    CODE     ---       _Int_OLED_WriteCommand
+      01000579H   PUBLIC    CODE     ---       _Int_OLED_WriteDate
+
+      01000572H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000579H   BLOCK     CODE     ---       LVL=0
+      01000581H   BLOCK     CODE     NEAR LAB  LVL=1
+      00000040H   SYMBOL    DATA     VOID      i
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      010005BBH   BLOCK     CODE     ---       LVL=0
+      010005C3H   BLOCK     CODE     NEAR LAB  LVL=1
+      00000043H   SYMBOL    DATA     VOID      i
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000710H   BLOCK     CODE     ---       LVL=0
+      01000710H   BLOCK     CODE     NEAR LAB  LVL=1
+LX51 LINKER/LOCATER V4.66.100.0                                                       09/16/2025  21:11:27  PAGE 5
+
+
+      00000022H   SYMBOL    DATA     VOID      cmd_bytes
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      010005FDH   BLOCK     CODE     ---       LVL=0
+      010005FDH   BLOCK     CODE     NEAR LAB  LVL=1
+      00000022H   SYMBOL    DATA     VOID      cmd_bytes
+      00000024H   SYMBOL    DATA     VOID      i
+      00000025H   SYMBOL    DATA     VOID      data_bytes
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      010006EBH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      010006F3H   BLOCK     CODE     ---       LVL=0
+      010006F3H   BLOCK     CODE     NEAR LAB  LVL=1
+      0000003CH   SYMBOL    DATA     VOID      cmd_bytes
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      010004E3H   BLOCK     CODE     ---       LVL=0
+      010004EDH   BLOCK     CODE     NEAR LAB  LVL=1
+      00000039H   SYMBOL    DATA     VOID      i
+      0000003AH   SYMBOL    DATA     VOID      cmd_bytes
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      0100066CH   BLOCK     CODE     ---       LVL=0
+      01000670H   BLOCK     CODE     NEAR LAB  LVL=1
+      00000028H   SYMBOL    DATA     VOID      str
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       MAIN
+      01000638H   PUBLIC    CODE     ---       main
+
+      01000638H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       ?C_STARTUP
+      01000000H   PUBLIC    CODE     ---       ?C_STARTUP
+
+      ---         MODULE    ---      ---       ?C?COPY
+      0100042FH   PUBLIC    CODE     ---       ?C?COPY
+
+      ---         MODULE    ---      ---       ?C?CLDOPTR
+      01000455H   PUBLIC    CODE     ---       ?C?CLDOPTR
+
+      ---         MODULE    ---      ---       PRINTF
+      00000034H   PUBLIC    DATA     ---       ?_PRINTF517?BYTE
+      00000034H   PUBLIC    DATA     ---       ?_PRINTF?BYTE
+      00000034H   PUBLIC    DATA     ---       ?_SPRINTF517?BYTE
+      00000034H   PUBLIC    DATA     ---       ?_SPRINTF?BYTE
+      01000065H   PUBLIC    CODE     ---       _PRINTF
+      01000065H   PUBLIC    CODE     ---       _PRINTF517
+      0100005FH   PUBLIC    CODE     ---       _SPRINTF
+      0100005FH   PUBLIC    CODE     ---       _SPRINTF517
+
+      ---         MODULE    ---      ---       ?C?CLDPTR
+      01000482H   PUBLIC    CODE     ---       ?C?CLDPTR
+
+      ---         MODULE    ---      ---       ?C?CSTPTR
+      0100049BH   PUBLIC    CODE     ---       ?C?CSTPTR
+
+LX51 LINKER/LOCATER V4.66.100.0                                                       09/16/2025  21:11:27  PAGE 6
+
+
+      ---         MODULE    ---      ---       ?C?PLDIIDATA
+      010004ADH   PUBLIC    CODE     ---       ?C?PLDIIDATA
+
+      ---         MODULE    ---      ---       ?C?CCASE
+      010004BDH   PUBLIC    CODE     ---       ?C?CCASE
+
+      ---         MODULE    ---      ---       PUTCHAR
+      010006C4H   PUBLIC    CODE     ---       _PUTCHAR
+
+Program Size: data=48.1 xdata=0 const=1551 code=1878
+LX51 RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,14 @@
+>>> cc
+
+
+
+>>> ld
+
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+@e:\51_practise\16_OLED\16_OLED\build\Debug\16_OLED.lnp .\build\Debug\.obj\src\Com\Com_util.o,.\build\Debug\.obj\src\Dri\Dri_IIC.o,.\build\Debug\.obj\src\Int\Int_OLED.o,.\build\Debug\.obj\src\main.o TO .\build\Debug\16_OLED
+PRINT(.\build\Debug\16_OLED.map) REMOVEUNUSED
+
+Program Size: data=48.1 xdata=0 const=1551 code=1878
+LX51 RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

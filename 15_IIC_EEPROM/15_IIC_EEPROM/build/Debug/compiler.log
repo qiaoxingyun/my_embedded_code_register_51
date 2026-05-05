@@ -1,0 +1,14 @@
+>>> cc
+
+
+
+>>> ld
+
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+@e:\51_practise\15_IIC_EEPROM\15_IIC_EEPROM\build\Debug\15_IIC_EEPROM.lnp .\build\Debug\.obj\src\Com\Com_util.o,.\build\Debug\.obj\src\Dri\Dri_IIC.o,.\build\Debug\.obj\src\Dri\Dri_Timer0.o,.\build\Debug\.obj\src\Int\Int_EEPROM.o,.\build\Debug\.obj\src\Int\Int_LED_Matrix.o,.\build\Debug\.obj\src\main.o TO .\build\Debug\15_IIC_EEPROM
+PRINT(.\build\Debug\15_IIC_EEPROM.map) REMOVEUNUSED
+
+Program Size: data=98.1 xdata=0 const=0 code=1022
+LX51 RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
