@@ -1,0 +1,91 @@
+{
+    "name": "simple_clock",
+    "target": "Target 1",
+    "toolchain": "Keil_C51",
+    "toolchainLocation": "D:\\Keill_5\\C51",
+    "toolchainCfgFile": "c:\\Users\\乔星云\\.vscode\\extensions\\cl.eide-3.26.4\\res\\data\\models/8051.keil.model.json",
+    "buildMode": "normal|multhread",
+    "showRepathOnLog": true,
+    "threadNum": 12,
+    "rootDir": "e:\\51_practise\\simple_clock",
+    "dumpPath": "build\\Target 1",
+    "outDir": "build\\Target 1",
+    "incDirs": [
+        "Src/Interface/Com",
+        "Src/Interface/1_wire",
+        "Src/Interface/IIC",
+        "Src/Interface/UART",
+        "Src/Driver/BUZZER",
+        "Src/Driver/DS18B20",
+        "Src/Driver/DS1302",
+        "Src/Driver/EEPROM",
+        "Src/Driver/KEY",
+        "Src/Driver/LED",
+        "Src/Driver/OLED_SS1314",
+        "Src",
+        "D:/Keill_5/C51/INC"
+    ],
+    "libDirs": [],
+    "defines": [
+        "__UVISION_VERSION=526"
+    ],
+    "sourceList": [
+        "Src/Driver/BUZZER/buzzer.c",
+        "Src/Driver/DS1302/ds1302.c",
+        "Src/Driver/KEY/key.c",
+        "Src/Driver/LED/led.c",
+        "Src/Driver/OLED_SS1314/ss1314.c",
+        "Src/Interface/COM/com.c",
+        "Src/Interface/IIC/iic.c",
+        "Src/Interface/UART/uart.c",
+        "Src/STARTUP.A51",
+        "Src/main.c"
+    ],
+    "alwaysInBuildSources": [],
+    "sourceParams": {},
+    "options": {
+        "version": 2,
+        "afterBuildTasks": [],
+        "asm-compiler": {},
+        "beforeBuildTasks": [],
+        "c/cpp-compiler": {
+            "optimization-level": "level-8",
+            "optimization-type": "SPEED",
+            "optimization": "8,SPEED"
+        },
+        "global": {
+            "ram-mode": "SMALL",
+            "rom-mode": "LARGE"
+        },
+        "linker": {
+            "misc-controls": "",
+            "output-format": "elf",
+            "remove-unused": true
+        }
+    },
+    "env": {
+        "workspaceFolder": "e:\\51_practise\\simple_clock",
+        "workspaceFolderBasename": "simple_clock",
+        "OutDir": "e:\\51_practise\\simple_clock\\build\\Target 1",
+        "OutDirRoot": "build",
+        "OutDirBase": "build\\Target 1",
+        "ProjectName": "simple_clock",
+        "ConfigName": "Target 1",
+        "ProjectRoot": "e:\\51_practise\\simple_clock",
+        "ExecutableName": "e:\\51_practise\\simple_clock\\build\\Target 1\\simple_clock",
+        "ChipPackDir": "",
+        "ChipName": "",
+        "SYS_Platform": "win32",
+        "SYS_DirSep": "\\",
+        "SYS_DirSeparator": "\\",
+        "SYS_PathSep": ";",
+        "SYS_PathSeparator": ";",
+        "SYS_EOL": "\r\n",
+        "EIDE_BUILDER_DIR": "c:\\Users\\乔星云\\.vscode\\extensions\\cl.eide-3.26.4\\res\\tools\\win32\\unify_builder",
+        "EIDE_BINARIES_VER": "12.1.1",
+        "EIDE_MSYS": "C:\\Users\\乔星云\\.eide\\bin\\builder\\msys\\bin",
+        "EIDE_PY3_CMD": "C:\\Users\\乔星云\\.eide\\bin\\python36\\python3.exe",
+        "ToolchainRoot": "D:\\Keill_5\\C51"
+    },
+    "sysPaths": []
+}

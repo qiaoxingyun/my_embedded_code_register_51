@@ -1,0 +1,14 @@
+>>> cc
+
+
+
+>>> ld
+
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+"@e:\51_practise\FIL1.0\build\Target 1\file_1.0.lnp" ".\build\Target 1\.obj\STARTUP.o",".\build\Target 1\.obj\Timer2\Timer2.o",".\build\Target 1\.obj\Users\main.o",".\build\Target 1\.obj\delay\delay.o",".\build\Target 1\.obj\key_light\key_light.o",".\build\Target 1\.obj\key_state\key_state.o" TO ".\build\Target 1\file_1.0"
+PRINT(".\build\Target 1\file_1.0.map") REMOVEUNUSED
+
+Program Size: data=16.0 xdata=0 const=0 code=673
+LX51 RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

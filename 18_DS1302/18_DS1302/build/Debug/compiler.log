@@ -1,0 +1,14 @@
+>>> cc
+
+
+
+>>> ld
+
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+@e:\51_practise\18_DS1302\18_DS1302\build\Debug\18_DS1302.lnp .\build\Debug\.obj\src\Com\Com_util.o,.\build\Debug\.obj\src\Dri\Dri_1_Wire.o,.\build\Debug\.obj\src\Dri\Dri_IIC.o,.\build\Debug\.obj\src\Int\Int_DS1302.o,.\build\Debug\.obj\src\Int\Int_DS18B20.o,.\build\Debug\.obj\src\Int\Int_OLED.o,.\build\Debug\.obj\src\main.o TO .\build\Debug\18_DS1302
+PRINT(.\build\Debug\18_DS1302.map) REMOVEUNUSED
+
+Program Size: data=76.1 xdata=0 const=1602 code=2823
+LX51 RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

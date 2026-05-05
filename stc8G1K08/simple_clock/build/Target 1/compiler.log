@@ -1,0 +1,14 @@
+>>> cc
+
+
+
+>>> ld
+
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+"@e:\51_practise\simple_clock\build\Target 1\simple_clock.lnp" ".\build\Target 1\.obj\Src\Driver\BUZZER\buzzer.o",".\build\Target 1\.obj\Src\Driver\DS1302\ds1302.o",".\build\Target 1\.obj\Src\Driver\KEY\key.o",".\build\Target 1\.obj\Src\Driver\LED\led.o",".\build\Target 1\.obj\Src\Driver\OLED_SS1314\ss1314.o",".\build\Target 1\.obj\Src\Interface\COM\com.o",".\build\Target 1\.obj\Src\Interface\IIC\iic.o",".\build\Target 1\.obj\Src\Interface\UART\uart.o",".\build\Target 1\.obj\Src\STARTUP.o",".\build\Target 1\.obj\Src\main.o" TO ".\build\Target 1\simple_clock"
+PRINT(".\build\Target 1\simple_clock.map") REMOVEUNUSED
+
+Program Size: data=98.4 xdata=17 const=1666 code=5049
+LX51 RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

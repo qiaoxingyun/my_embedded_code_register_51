@@ -1,0 +1,186 @@
+[2025-09-05 11:40:52]	compilation failed at : "e:\51_practise\18_DS1302\18_DS1302\src\Int\Int_DS1302.c", exit code: 2
+command: 
+  "d:\Keill_5\C51\BIN\C51.exe" .\src\Int\Int_DS1302.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(d:/Keill_5/C51/INC/STC;src/App;src/Com;src/Dri;src/Int;d:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(.\build\Debug\.obj\src\Int\Int_DS1302.lst) OBJECT(.\build\Debug\.obj\src\Int\Int_DS1302.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** WARNING C275 IN LINE 62 OF .\src\Int\Int_DS1302.c: expression with possibly no effect
+*** WARNING C275 IN LINE 72 OF .\src\Int\Int_DS1302.c: expression with possibly no effect
+*** ERROR C174 IN LINE 76 OF .\src\Int\Int_DS1302.c: return-expression on void-function
+
+C51 COMPILATION COMPLETE.  2 WARNING(S),  1 ERROR(S)
+
+[2025-09-05 11:41:15]	compilation failed at : "e:\51_practise\18_DS1302\18_DS1302\src\Int\Int_DS1302.c", exit code: 2
+command: 
+  "d:\Keill_5\C51\BIN\C51.exe" .\src\Int\Int_DS1302.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(d:/Keill_5/C51/INC/STC;src/App;src/Com;src/Dri;src/Int;d:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(.\build\Debug\.obj\src\Int\Int_DS1302.lst) OBJECT(.\build\Debug\.obj\src\Int\Int_DS1302.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C174 IN LINE 76 OF .\src\Int\Int_DS1302.c: return-expression on void-function
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2025-09-05 11:42:00]	compilation failed at : "e:\51_practise\18_DS1302\18_DS1302\src\Int\Int_DS1302.c", exit code: 2
+command: 
+  "d:\Keill_5\C51\BIN\C51.exe" .\src\Int\Int_DS1302.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(d:/Keill_5/C51/INC/STC;src/App;src/Com;src/Dri;src/Int;d:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(.\build\Debug\.obj\src\Int\Int_DS1302.lst) OBJECT(.\build\Debug\.obj\src\Int\Int_DS1302.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C213 IN LINE 87 OF .\src\Int\Int_DS1302.c: left side of asn-op not an lvalue
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2025-09-05 11:44:44]	compilation failed at : "e:\51_practise\18_DS1302\18_DS1302\src\Int\Int_DS1302.c", exit code: 2
+command: 
+  "d:\Keill_5\C51\BIN\C51.exe" .\src\Int\Int_DS1302.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(d:/Keill_5/C51/INC/STC;src/App;src/Com;src/Dri;src/Int;d:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(.\build\Debug\.obj\src\Int\Int_DS1302.lst) OBJECT(.\build\Debug\.obj\src\Int\Int_DS1302.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** WARNING C209 IN LINE 122 OF .\src\Int\Int_DS1302.c: '_Int_DS1302_WriteByte': too few actual parameters
+*** ERROR C193 IN LINE 122 OF .\src\Int\Int_DS1302.c: '=': illegal type conversion from/to 'void'
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  1 ERROR(S)
+
+[2025-09-05 11:49:28]	compilation failed at : "e:\51_practise\18_DS1302\18_DS1302\src\Int\Int_DS18B20.c", exit code: 2
+command: 
+  "d:\Keill_5\C51\BIN\C51.exe" .\src\Int\Int_DS18B20.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(d:/Keill_5/C51/INC/STC;src/App;src/Com;src/Dri;src/Int;d:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(.\build\Debug\.obj\src\Int\Int_DS18B20.lst) OBJECT(.\build\Debug\.obj\src\Int\Int_DS18B20.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** WARNING C318 IN LINE 2 OF .\src\Int\Int_DS18B20.c: can't open file 'Dri_1_Wire.h'
+*** ERROR C202 IN LINE 6 OF .\src\Int\Int_DS18B20.c: 'u8': undefined identifier
+*** ERROR C141 IN LINE 6 OF .\src\Int\Int_DS18B20.c: syntax error near 'ls_byte', expected ';'
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  2 ERROR(S)
+
+[2025-09-05 11:50:21]	compilation failed at : "e:\51_practise\18_DS1302\18_DS1302\src\Int\Int_DS18B20.c", exit code: 2
+command: 
+  "d:\Keill_5\C51\BIN\C51.exe" .\src\Int\Int_DS18B20.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(d:/Keill_5/C51/INC/STC;src/App;src/Com;src/Dri;src/Int;d:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(.\build\Debug\.obj\src\Int\Int_DS18B20.lst) OBJECT(.\build\Debug\.obj\src\Int\Int_DS18B20.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** WARNING C318 IN LINE 2 OF .\src\Int\Int_DS18B20.c: can't open file 'Dri_1_Wire.h'
+*** WARNING C206 IN LINE 9 OF .\src\Int\Int_DS18B20.c: 'Dri_1Wire_Init': missing function-prototype
+*** WARNING C206 IN LINE 11 OF .\src\Int\Int_DS18B20.c: 'Dri_1Wire_WriteByte': missing function-prototype
+*** ERROR C267 IN LINE 11 OF .\src\Int\Int_DS18B20.c: 'Dri_1Wire_WriteByte': requires ANSI-style prototype
+
+C51 COMPILATION COMPLETE.  3 WARNING(S),  1 ERROR(S)
+
+[2025-09-05 11:50:50]	compilation failed at : "e:\51_practise\18_DS1302\18_DS1302\src\Int\Int_OLED.c", exit code: 2
+command: 
+  "d:\Keill_5\C51\BIN\C51.exe" .\src\Int\Int_OLED.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(d:/Keill_5/C51/INC/STC;src/App;src/Com;src/Dri;src/Int;d:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(.\build\Debug\.obj\src\Int\Int_OLED.lst) OBJECT(.\build\Debug\.obj\src\Int\Int_OLED.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** WARNING C318 IN LINE 2 OF .\src\Int\Int_OLED.c: can't open file 'Dri_IIC.h'
+*** WARNING C206 IN LINE 301 OF .\src\Int\Int_OLED.c: 'Dri_IIC_Start': missing function-prototype
+*** WARNING C206 IN LINE 302 OF .\src\Int\Int_OLED.c: 'Dri_IIC_SendByte': missing function-prototype
+*** ERROR C267 IN LINE 302 OF .\src\Int\Int_OLED.c: 'Dri_IIC_SendByte': requires ANSI-style prototype
+
+C51 COMPILATION COMPLETE.  3 WARNING(S),  1 ERROR(S)
+
+[2025-09-05 11:51:33]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+@e:\51_practise\18_DS1302\18_DS1302\build\Debug\18_DS1302.lnp .\build\Debug\.obj\src\Com\Com_util.o,.\build\Debug\.obj\src\Dri\Dri_1_Wire.o,.\build\Debug\.obj\src\Dri\Dri_IIC.o,.\build\Debug\.obj\src\Int\Int_DS1302.o,.\build\Debug\.obj\src\Int\Int_DS18B20.o,.\build\Debug\.obj\src\Int\Int_OLED.o,.\build\Debug\.obj\src\main.o TO .\build\Debug\18_DS1302
+PRINT(.\build\Debug\18_DS1302.map) REMOVEUNUSED
+
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  Com_Delay10us
+    MODULE:  .\BUILD\DEBUG\.OBJ\SRC\DRI\DRI_1_WIRE.O (DRI_1_WIRE)
+
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  Com_Delay50us
+    MODULE:  .\BUILD\DEBUG\.OBJ\SRC\DRI\DRI_1_WIRE.O (DRI_1_WIRE)
+
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  Com_Delay60us
+    MODULE:  .\BUILD\DEBUG\.OBJ\SRC\DRI\DRI_1_WIRE.O (DRI_1_WIRE)
+
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  Com_Delay420us
+    MODULE:  .\BUILD\DEBUG\.OBJ\SRC\DRI\DRI_1_WIRE.O (DRI_1_WIRE)
+
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  Com_Delay480us
+    MODULE:  .\BUILD\DEBUG\.OBJ\SRC\DRI\DRI_1_WIRE.O (DRI_1_WIRE)
+
+Program Size: data=9.0 xdata=0 const=0 code=439
+LX51 RUN COMPLETE.  0 WARNING(S),  5 ERROR(S)
+
+
+[2025-09-05 11:52:00]	[done]
+	build successfully !
+
+[2025-09-05 11:52:30]	[done]
+	build successfully !
+
+[2025-09-05 12:01:39]	[done]
+	build successfully !
+
+[2025-09-05 12:07:15]	compilation failed at : "e:\51_practise\18_DS1302\18_DS1302\src\main.c", exit code: 2
+command: 
+  "d:\Keill_5\C51\BIN\C51.exe" .\src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(d:/Keill_5/C51/INC/STC;src/App;src/Com;src/Dri;src/Int;d:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(.\build\Debug\.obj\src\main.lst) OBJECT(.\build\Debug\.obj\src\main.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 28 OF .\src\main.c: syntax error near 'Int_OLED_Showstr', expected ';'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2025-09-05 12:07:43]	compilation failed at : "e:\51_practise\18_DS1302\18_DS1302\src\main.c", exit code: 2
+command: 
+  "d:\Keill_5\C51\BIN\C51.exe" .\src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(d:/Keill_5/C51/INC/STC;src/App;src/Com;src/Dri;src/Int;d:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(.\build\Debug\.obj\src\main.lst) OBJECT(.\build\Debug\.obj\src\main.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 28 OF .\src\main.c: syntax error near 'Int_OLED_ShowStr', expected ';'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2025-09-05 12:08:08]	compilation failed at : "e:\51_practise\18_DS1302\18_DS1302\src\main.c", exit code: 2
+command: 
+  "d:\Keill_5\C51\BIN\C51.exe" .\src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(d:/Keill_5/C51/INC/STC;src/App;src/Com;src/Dri;src/Int;d:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(.\build\Debug\.obj\src\main.lst) OBJECT(.\build\Debug\.obj\src\main.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 28 OF .\src\main.c: syntax error near 'Int_OLED_ShowStr', expected ';'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2025-09-05 12:08:23]	compilation failed at : "e:\51_practise\18_DS1302\18_DS1302\src\main.c", exit code: 2
+command: 
+  "d:\Keill_5\C51\BIN\C51.exe" .\src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(d:/Keill_5/C51/INC/STC;src/App;src/Com;src/Dri;src/Int;d:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(.\build\Debug\.obj\src\main.lst) OBJECT(.\build\Debug\.obj\src\main.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C214 IN LINE 28 OF .\src\main.c: illegal pointer conversion
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2025-09-05 12:09:34]	[done]
+	build successfully !
+
+[2025-09-05 12:16:38]	[done]
+	build successfully !
+
+[2025-09-05 12:22:14]	[done]
+	build successfully !
+
+[2025-09-13 22:47:54]	[done]
+	build successfully !
+

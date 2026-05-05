@@ -1,0 +1,6 @@
+tool: KEIL_C51
+fileName: 'simple_clock.map'
+elfName: 'simple_clock'
+compilerName: 'C51 COMPILER'
+compilerFullName: 'C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C'
+compilerPath: 'D:\Keill_5\C51\BIN\C51.exe'

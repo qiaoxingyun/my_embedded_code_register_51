@@ -1,0 +1,1587 @@
+[2026-03-14 16:56:10]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\DS1302\ds1302.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\DS1302\ds1302.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\DS1302\ds1302.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\DS1302\ds1302.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** WARNING C209 IN LINE 64 OF .\Src\Driver\DS1302\ds1302.c: '_DS1302_SetRegister': too few actual parameters
+*** WARNING C206 IN LINE 91 OF .\Src\Driver\DS1302\ds1302.c: 'Int_DS1302_SetRegister': missing function-prototype
+*** ERROR C267 IN LINE 91 OF .\Src\Driver\DS1302\ds1302.c: 'Int_DS1302_SetRegister': requires ANSI-style prototype
+
+C51 COMPILATION COMPLETE.  2 WARNING(S),  1 ERROR(S)
+
+[2026-03-14 16:56:54]	[done]
+	build successfully !
+
+[2026-03-14 17:08:53]	[done]
+	build successfully !
+
+[2026-03-14 17:11:07]	[done]
+	build successfully !
+
+[2026-03-14 17:20:06]	[done]
+	build successfully !
+
+[2026-03-14 17:20:49]	[done]
+	build successfully !
+
+[2026-03-14 17:26:35]	[done]
+	build successfully !
+
+[2026-03-14 17:35:17]	[done]
+	build successfully !
+
+[2026-03-14 20:06:49]	[done]
+	build successfully !
+
+[2026-03-14 20:08:51]	[done]
+	build successfully !
+
+[2026-03-14 20:18:55]	[done]
+	build successfully !
+
+[2026-03-14 20:30:37]	[done]
+	build successfully !
+
+[2026-03-14 20:43:45]	[done]
+	build successfully !
+
+[2026-03-14 20:52:00]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+"@e:\51_practise\simple_clock\build\Target 1\simple_clock.lnp" ".\build\Target 1\.obj\Src\Driver\BUZZER\buzzer.o",".\build\Target 1\.obj\Src\Driver\DS1302\ds1302.o",".\build\Target 1\.obj\Src\Driver\KEY\key.o",".\build\Target 1\.obj\Src\Driver\LED\led.o",".\build\Target 1\.obj\Src\Driver\OLED_SS1314\ss1314.o",".\build\Target 1\.obj\Src\Interface\COM\com.o",".\build\Target 1\.obj\Src\Interface\IIC\iic.o",".\build\Target 1\.obj\Src\Interface\UART\uart.o",".\build\Target 1\.obj\Src\STARTUP.o",".\build\Target 1\.obj\Src\main.o" TO ".\build\Target 1\simple_clock"
+PRINT(".\build\Target 1\simple_clock.map") REMOVEUNUSED
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    BUZZER_500HZ/BUZZER
+    CALLER1: INT0_ISR/KEY
+    CALLER2: INT1_ISR/KEY
+
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS18B20_Init
+    MODULE:  .\build\Target 1\.obj\Src\main.o (MAIN)
+
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS18B20_GetTemperature
+    MODULE:  .\build\Target 1\.obj\Src\main.o (MAIN)
+
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS18B20_Init
+    MODULE:  .\build\Target 1\.obj\Src\main.o (MAIN)
+    ADDRESS: 100067AH
+
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS18B20_GetTemperature
+    MODULE:  .\build\Target 1\.obj\Src\main.o (MAIN)
+    ADDRESS: 100068FH
+
+Program Size: data=77.1 xdata=0 const=1604 code=3393
+LX51 RUN COMPLETE.  1 WARNING(S),  4 ERROR(S)
+
+
+[2026-03-14 20:52:27]	[done]
+	build successfully !
+
+[2026-03-14 20:54:24]	[done]
+	build successfully !
+
+[2026-03-14 20:57:14]	[done]
+	build successfully !
+
+[2026-03-14 20:59:48]	[done]
+	build successfully !
+
+[2026-03-14 21:05:45]	[done]
+	build successfully !
+
+[2026-03-14 21:10:13]	[done]
+	build successfully !
+
+[2026-03-14 21:13:38]	[done]
+	build successfully !
+
+[2026-03-14 21:19:46]	[done]
+	build successfully !
+
+[2026-03-14 21:28:41]	compilation failed at : "e:\51_practise\simple_clock\Src\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\main.lst") OBJECT(".\build\Target 1\.obj\Src\main.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 47 OF .\Src\main.c: syntax error near ')', expected 'sizeof'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-03-14 21:28:59]	[done]
+	build successfully !
+
+[2026-03-14 22:39:59]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+"@e:\51_practise\simple_clock\build\Target 1\simple_clock.lnp" ".\build\Target 1\.obj\Src\Driver\BUZZER\buzzer.o",".\build\Target 1\.obj\Src\Driver\DS1302\ds1302.o",".\build\Target 1\.obj\Src\Driver\KEY\key.o",".\build\Target 1\.obj\Src\Driver\LED\led.o",".\build\Target 1\.obj\Src\Driver\OLED_SS1314\ss1314.o",".\build\Target 1\.obj\Src\Interface\COM\com.o",".\build\Target 1\.obj\Src\Interface\IIC\iic.o",".\build\Target 1\.obj\Src\Interface\UART\uart.o",".\build\Target 1\.obj\Src\STARTUP.o",".\build\Target 1\.obj\Src\main.o" TO ".\build\Target 1\simple_clock"
+PRINT(".\build\Target 1\simple_clock.map") REMOVEUNUSED
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  current_select_item
+    MODULE:  .\build\Target 1\.obj\Src\main.o (MAIN)
+   DEFINED:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    BUZZER_500HZ/BUZZER
+    CALLER1: INT0_ISR/KEY
+    CALLER2: INT1_ISR/KEY
+
+Program Size: data=68.1 xdata=0 const=1637 code=3385
+LX51 RUN COMPLETE.  1 WARNING(S),  1 ERROR(S)
+
+
+[2026-03-14 22:41:34]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+"@e:\51_practise\simple_clock\build\Target 1\simple_clock.lnp" ".\build\Target 1\.obj\Src\Driver\BUZZER\buzzer.o",".\build\Target 1\.obj\Src\Driver\DS1302\ds1302.o",".\build\Target 1\.obj\Src\Driver\KEY\key.o",".\build\Target 1\.obj\Src\Driver\LED\led.o",".\build\Target 1\.obj\Src\Driver\OLED_SS1314\ss1314.o",".\build\Target 1\.obj\Src\Interface\COM\com.o",".\build\Target 1\.obj\Src\Interface\IIC\iic.o",".\build\Target 1\.obj\Src\Interface\UART\uart.o",".\build\Target 1\.obj\Src\STARTUP.o",".\build\Target 1\.obj\Src\main.o" TO ".\build\Target 1\simple_clock"
+PRINT(".\build\Target 1\simple_clock.map") REMOVEUNUSED
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  current_select_item
+    MODULE:  .\build\Target 1\.obj\Src\main.o (MAIN)
+   DEFINED:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    BUZZER_500HZ/BUZZER
+    CALLER1: INT0_ISR/KEY
+    CALLER2: INT1_ISR/KEY
+
+Program Size: data=68.1 xdata=0 const=1637 code=3385
+LX51 RUN COMPLETE.  1 WARNING(S),  1 ERROR(S)
+
+
+[2026-03-15 19:13:20]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 29 OF .\Src\Driver\KEY\key.c: syntax error near 'uint8_t', expected 'sizeof'
+*** ERROR C202 IN LINE 29 OF .\Src\Driver\KEY\key.c: 'i': undefined identifier
+*** ERROR C202 IN LINE 29 OF .\Src\Driver\KEY\key.c: 'i': undefined identifier
+*** ERROR C202 IN LINE 29 OF .\Src\Driver\KEY\key.c: 'i': undefined identifier
+*** ERROR C141 IN LINE 29 OF .\Src\Driver\KEY\key.c: syntax error near ')', expected ';'
+*** ERROR C101 IN LINE 31 OF .\Src\Driver\KEY\key.c: '' ': invalid character constant
+*** ERROR C101 IN LINE 31 OF .\Src\Driver\KEY\key.c: '')': invalid character constant
+*** ERROR C141 IN LINE 31 OF .\Src\Driver\KEY\key.c: syntax error near '')', expected ','
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  8 ERROR(S)
+
+[2026-03-15 19:13:43]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C101 IN LINE 32 OF .\Src\Driver\KEY\key.c: '' ': invalid character constant
+*** ERROR C101 IN LINE 32 OF .\Src\Driver\KEY\key.c: '')': invalid character constant
+*** ERROR C141 IN LINE 32 OF .\Src\Driver\KEY\key.c: syntax error near '')', expected ','
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  3 ERROR(S)
+
+[2026-03-15 20:30:36]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C101 IN LINE 32 OF .\Src\Driver\KEY\key.c: '' ': invalid character constant
+*** ERROR C101 IN LINE 32 OF .\Src\Driver\KEY\key.c: '')': invalid character constant
+*** ERROR C141 IN LINE 32 OF .\Src\Driver\KEY\key.c: syntax error near '')', expected ','
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  3 ERROR(S)
+
+[2026-03-15 20:31:44]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C101 IN LINE 33 OF .\Src\Driver\KEY\key.c: '' ': invalid character constant
+*** ERROR C101 IN LINE 33 OF .\Src\Driver\KEY\key.c: '')': invalid character constant
+*** ERROR C141 IN LINE 33 OF .\Src\Driver\KEY\key.c: syntax error near '')', expected ','
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  3 ERROR(S)
+
+[2026-03-15 20:34:35]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C101 IN LINE 33 OF .\Src\Driver\KEY\key.c: ''0': invalid character constant
+*** ERROR C141 IN LINE 33 OF .\Src\Driver\KEY\key.c: syntax error near '000', expected ','
+*** ERROR C101 IN LINE 33 OF .\Src\Driver\KEY\key.c: '')': invalid character constant
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  3 ERROR(S)
+
+[2026-03-15 20:34:57]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C214 IN LINE 35 OF .\Src\Driver\KEY\key.c: illegal pointer conversion
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-03-15 20:35:34]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 31 OF .\Src\Driver\KEY\key.c: syntax error near 'uint8_t', expected '__asm'
+*** ERROR C141 IN LINE 31 OF .\Src\Driver\KEY\key.c: syntax error near '{', expected 'sizeof'
+*** ERROR C141 IN LINE 31 OF .\Src\Driver\KEY\key.c: syntax error near '}', expected ';'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  3 ERROR(S)
+
+[2026-03-15 20:36:04]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C231 IN LINE 27 OF .\Src\Driver\KEY\key.c: 'str': redefinition
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-03-15 20:36:14]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C214 IN LINE 35 OF .\Src\Driver\KEY\key.c: illegal pointer conversion
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-03-15 20:38:30]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C101 IN LINE 32 OF .\Src\Driver\KEY\key.c: ''0': invalid character constant
+*** ERROR C141 IN LINE 32 OF .\Src\Driver\KEY\key.c: syntax error near '000', expected ','
+*** ERROR C101 IN LINE 32 OF .\Src\Driver\KEY\key.c: '')': invalid character constant
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  3 ERROR(S)
+
+[2026-03-15 20:38:48]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+"@e:\51_practise\simple_clock\build\Target 1\simple_clock.lnp" ".\build\Target 1\.obj\Src\Driver\BUZZER\buzzer.o",".\build\Target 1\.obj\Src\Driver\DS1302\ds1302.o",".\build\Target 1\.obj\Src\Driver\KEY\key.o",".\build\Target 1\.obj\Src\Driver\LED\led.o",".\build\Target 1\.obj\Src\Driver\OLED_SS1314\ss1314.o",".\build\Target 1\.obj\Src\Interface\COM\com.o",".\build\Target 1\.obj\Src\Interface\IIC\iic.o",".\build\Target 1\.obj\Src\Interface\UART\uart.o",".\build\Target 1\.obj\Src\STARTUP.o",".\build\Target 1\.obj\Src\main.o" TO ".\build\Target 1\simple_clock"
+PRINT(".\build\Target 1\simple_clock.map") REMOVEUNUSED
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  press_dowm_flag
+    MODULE:  .\build\Target 1\.obj\Src\main.o (MAIN)
+   DEFINED:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  current_select_item
+    MODULE:  .\build\Target 1\.obj\Src\main.o (MAIN)
+   DEFINED:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    BUZZER_500HZ/BUZZER
+    CALLER1: INT0_ISR/KEY
+    CALLER2: INT1_ISR/KEY
+
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  st_date
+    MODULE:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+
+Program Size: data=68.3 xdata=0 const=1637 code=3518
+LX51 RUN COMPLETE.  1 WARNING(S),  3 ERROR(S)
+
+
+[2026-03-15 20:39:14]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+"@e:\51_practise\simple_clock\build\Target 1\simple_clock.lnp" ".\build\Target 1\.obj\Src\Driver\BUZZER\buzzer.o",".\build\Target 1\.obj\Src\Driver\DS1302\ds1302.o",".\build\Target 1\.obj\Src\Driver\KEY\key.o",".\build\Target 1\.obj\Src\Driver\LED\led.o",".\build\Target 1\.obj\Src\Driver\OLED_SS1314\ss1314.o",".\build\Target 1\.obj\Src\Interface\COM\com.o",".\build\Target 1\.obj\Src\Interface\IIC\iic.o",".\build\Target 1\.obj\Src\Interface\UART\uart.o",".\build\Target 1\.obj\Src\STARTUP.o",".\build\Target 1\.obj\Src\main.o" TO ".\build\Target 1\simple_clock"
+PRINT(".\build\Target 1\simple_clock.map") REMOVEUNUSED
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  press_dowm_flag
+    MODULE:  .\build\Target 1\.obj\Src\main.o (MAIN)
+   DEFINED:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  current_select_item
+    MODULE:  .\build\Target 1\.obj\Src\main.o (MAIN)
+   DEFINED:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    BUZZER_500HZ/BUZZER
+    CALLER1: INT0_ISR/KEY
+    CALLER2: INT1_ISR/KEY
+
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  st_date
+    MODULE:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+
+Program Size: data=68.3 xdata=0 const=1637 code=3518
+LX51 RUN COMPLETE.  1 WARNING(S),  3 ERROR(S)
+
+
+[2026-03-15 20:42:08]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+"@e:\51_practise\simple_clock\build\Target 1\simple_clock.lnp" ".\build\Target 1\.obj\Src\Driver\BUZZER\buzzer.o",".\build\Target 1\.obj\Src\Driver\DS1302\ds1302.o",".\build\Target 1\.obj\Src\Driver\KEY\key.o",".\build\Target 1\.obj\Src\Driver\LED\led.o",".\build\Target 1\.obj\Src\Driver\OLED_SS1314\ss1314.o",".\build\Target 1\.obj\Src\Interface\COM\com.o",".\build\Target 1\.obj\Src\Interface\IIC\iic.o",".\build\Target 1\.obj\Src\Interface\UART\uart.o",".\build\Target 1\.obj\Src\STARTUP.o",".\build\Target 1\.obj\Src\main.o" TO ".\build\Target 1\simple_clock"
+PRINT(".\build\Target 1\simple_clock.map") REMOVEUNUSED
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  press_dowm_flag
+    MODULE:  .\build\Target 1\.obj\Src\main.o (MAIN)
+   DEFINED:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  current_select_item
+    MODULE:  .\build\Target 1\.obj\Src\main.o (MAIN)
+   DEFINED:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    BUZZER_500HZ/BUZZER
+    CALLER1: INT0_ISR/KEY
+    CALLER2: INT1_ISR/KEY
+
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  st_date
+    MODULE:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+
+Program Size: data=68.3 xdata=0 const=1637 code=3518
+LX51 RUN COMPLETE.  1 WARNING(S),  3 ERROR(S)
+
+
+[2026-03-15 21:37:06]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+"@e:\51_practise\simple_clock\build\Target 1\simple_clock.lnp" ".\build\Target 1\.obj\Src\Driver\BUZZER\buzzer.o",".\build\Target 1\.obj\Src\Driver\DS1302\ds1302.o",".\build\Target 1\.obj\Src\Driver\KEY\key.o",".\build\Target 1\.obj\Src\Driver\LED\led.o",".\build\Target 1\.obj\Src\Driver\OLED_SS1314\ss1314.o",".\build\Target 1\.obj\Src\Interface\COM\com.o",".\build\Target 1\.obj\Src\Interface\IIC\iic.o",".\build\Target 1\.obj\Src\Interface\UART\uart.o",".\build\Target 1\.obj\Src\STARTUP.o",".\build\Target 1\.obj\Src\main.o" TO ".\build\Target 1\simple_clock"
+PRINT(".\build\Target 1\simple_clock.map") REMOVEUNUSED
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  press_dowm_flag
+    MODULE:  .\build\Target 1\.obj\Src\main.o (MAIN)
+   DEFINED:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  current_select_item
+    MODULE:  .\build\Target 1\.obj\Src\main.o (MAIN)
+   DEFINED:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    BUZZER_500HZ/BUZZER
+    CALLER1: INT0_ISR/KEY
+    CALLER2: INT1_ISR/KEY
+
+Program Size: data=78.3 xdata=0 const=1637 code=3770
+LX51 RUN COMPLETE.  1 WARNING(S),  2 ERROR(S)
+
+
+[2026-03-15 22:05:24]	compilation failed at : "e:\51_practise\simple_clock\Src\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\main.lst") OBJECT(".\build\Target 1\.obj\Src\main.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C231 IN LINE 10 OF .\Src\main.c: 'WEEK_NAME': redefinition
+*** ERROR C231 IN LINE 17 OF .\Src\main.c: 'WEEK_NAME': redefinition
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+[2026-03-15 22:06:28]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+"@e:\51_practise\simple_clock\build\Target 1\simple_clock.lnp" ".\build\Target 1\.obj\Src\Driver\BUZZER\buzzer.o",".\build\Target 1\.obj\Src\Driver\DS1302\ds1302.o",".\build\Target 1\.obj\Src\Driver\KEY\key.o",".\build\Target 1\.obj\Src\Driver\LED\led.o",".\build\Target 1\.obj\Src\Driver\OLED_SS1314\ss1314.o",".\build\Target 1\.obj\Src\Interface\COM\com.o",".\build\Target 1\.obj\Src\Interface\IIC\iic.o",".\build\Target 1\.obj\Src\Interface\UART\uart.o",".\build\Target 1\.obj\Src\STARTUP.o",".\build\Target 1\.obj\Src\main.o" TO ".\build\Target 1\simple_clock"
+PRINT(".\build\Target 1\simple_clock.map") REMOVEUNUSED
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  press_dowm_flag
+    MODULE:  .\build\Target 1\.obj\Src\main.o (MAIN)
+   DEFINED:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  current_select_item
+    MODULE:  .\build\Target 1\.obj\Src\main.o (MAIN)
+   DEFINED:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WEEK_NAME
+    MODULE:  .\build\Target 1\.obj\Src\main.o (MAIN)
+   DEFINED:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    BUZZER_500HZ/BUZZER
+    CALLER1: INT0_ISR/KEY
+    CALLER2: INT1_ISR/KEY
+
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  st_date
+    MODULE:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  st_date
+    MODULE:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+    ADDRESS: 1000699H
+
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  st_date
+    MODULE:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+    ADDRESS: 10006E0H
+
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  st_date
+    MODULE:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+    ADDRESS: 100072BH
+
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  st_date
+    MODULE:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+    ADDRESS: 1000774H
+
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  st_date
+    MODULE:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+    ADDRESS: 10007DBH
+
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  st_date
+    MODULE:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+    ADDRESS: 1000824H
+
+Program Size: data=90.3 xdata=0 const=1747 code=4353
+LX51 RUN COMPLETE.  1 WARNING(S),  10 ERROR(S)
+
+
+[2026-03-15 22:07:22]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+"@e:\51_practise\simple_clock\build\Target 1\simple_clock.lnp" ".\build\Target 1\.obj\Src\Driver\BUZZER\buzzer.o",".\build\Target 1\.obj\Src\Driver\DS1302\ds1302.o",".\build\Target 1\.obj\Src\Driver\KEY\key.o",".\build\Target 1\.obj\Src\Driver\LED\led.o",".\build\Target 1\.obj\Src\Driver\OLED_SS1314\ss1314.o",".\build\Target 1\.obj\Src\Interface\COM\com.o",".\build\Target 1\.obj\Src\Interface\IIC\iic.o",".\build\Target 1\.obj\Src\Interface\UART\uart.o",".\build\Target 1\.obj\Src\STARTUP.o",".\build\Target 1\.obj\Src\main.o" TO ".\build\Target 1\simple_clock"
+PRINT(".\build\Target 1\simple_clock.map") REMOVEUNUSED
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  press_dowm_flag
+    MODULE:  .\build\Target 1\.obj\Src\main.o (MAIN)
+   DEFINED:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  current_select_item
+    MODULE:  .\build\Target 1\.obj\Src\main.o (MAIN)
+   DEFINED:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WEEK_NAME
+    MODULE:  .\build\Target 1\.obj\Src\main.o (MAIN)
+   DEFINED:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    BUZZER_500HZ/BUZZER
+    CALLER1: INT0_ISR/KEY
+    CALLER2: INT1_ISR/KEY
+
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  st_date
+    MODULE:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  st_date
+    MODULE:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+    ADDRESS: 1000699H
+
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  st_date
+    MODULE:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+    ADDRESS: 10006E0H
+
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  st_date
+    MODULE:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+    ADDRESS: 100072BH
+
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  st_date
+    MODULE:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+    ADDRESS: 1000774H
+
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  st_date
+    MODULE:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+    ADDRESS: 10007DBH
+
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  st_date
+    MODULE:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+    ADDRESS: 1000824H
+
+Program Size: data=90.3 xdata=0 const=1747 code=4353
+LX51 RUN COMPLETE.  1 WARNING(S),  10 ERROR(S)
+
+
+[2026-03-15 22:33:41]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C129 IN LINE 15 OF .\Src\Driver\KEY\key.h: missing ';' before 'current_select_item'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-03-15 22:34:56]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** WARNING C206 IN LINE 82 OF .\Src\Driver\KEY\key.c: 'strcpy': missing function-prototype
+*** ERROR C267 IN LINE 82 OF .\Src\Driver\KEY\key.c: 'strcpy': requires ANSI-style prototype
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  1 ERROR(S)
+
+[2026-03-15 22:35:33]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+"@e:\51_practise\simple_clock\build\Target 1\simple_clock.lnp" ".\build\Target 1\.obj\Src\Driver\BUZZER\buzzer.o",".\build\Target 1\.obj\Src\Driver\DS1302\ds1302.o",".\build\Target 1\.obj\Src\Driver\KEY\key.o",".\build\Target 1\.obj\Src\Driver\LED\led.o",".\build\Target 1\.obj\Src\Driver\OLED_SS1314\ss1314.o",".\build\Target 1\.obj\Src\Interface\COM\com.o",".\build\Target 1\.obj\Src\Interface\IIC\iic.o",".\build\Target 1\.obj\Src\Interface\UART\uart.o",".\build\Target 1\.obj\Src\STARTUP.o",".\build\Target 1\.obj\Src\main.o" TO ".\build\Target 1\simple_clock"
+PRINT(".\build\Target 1\simple_clock.map") REMOVEUNUSED
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WEEK_NAME
+    MODULE:  .\build\Target 1\.obj\Src\main.o (MAIN)
+   DEFINED:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    BUZZER_500HZ/BUZZER
+    CALLER1: INT0_ISR/KEY
+    CALLER2: INT1_ISR/KEY
+
+Program Size: data=109.3 xdata=0 const=1760 code=4610
+LX51 RUN COMPLETE.  1 WARNING(S),  1 ERROR(S)
+
+
+[2026-03-15 22:38:20]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+"@e:\51_practise\simple_clock\build\Target 1\simple_clock.lnp" ".\build\Target 1\.obj\Src\Driver\BUZZER\buzzer.o",".\build\Target 1\.obj\Src\Driver\DS1302\ds1302.o",".\build\Target 1\.obj\Src\Driver\KEY\key.o",".\build\Target 1\.obj\Src\Driver\LED\led.o",".\build\Target 1\.obj\Src\Driver\OLED_SS1314\ss1314.o",".\build\Target 1\.obj\Src\Interface\COM\com.o",".\build\Target 1\.obj\Src\Interface\IIC\iic.o",".\build\Target 1\.obj\Src\Interface\UART\uart.o",".\build\Target 1\.obj\Src\STARTUP.o",".\build\Target 1\.obj\Src\main.o" TO ".\build\Target 1\simple_clock"
+PRINT(".\build\Target 1\simple_clock.map") REMOVEUNUSED
+
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA
+    SEGMENT: ?DT?KEY
+    LENGTH:  000027H   
+
+Program Size: data=129.3 xdata=0 const=1661 code=4627
+LX51 RUN COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+
+[2026-03-15 22:42:25]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C231 IN LINE 4 OF .\Src\Driver\KEY\key.c: 'st_date': redefinition
+*** ERROR C129 IN LINE 5 OF .\Src\Driver\KEY\key.c: missing ';' before 'current_select_item'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+[2026-03-15 22:42:30]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C231 IN LINE 4 OF .\Src\Driver\KEY\key.c: 'st_date': redefinition
+*** ERROR C129 IN LINE 5 OF .\Src\Driver\KEY\key.c: missing ';' before 'current_select_item'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+[2026-03-15 22:44:34]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C231 IN LINE 4 OF .\Src\Driver\KEY\key.c: 'st_date': redefinition
+*** ERROR C129 IN LINE 5 OF .\Src\Driver\KEY\key.c: missing ';' before 'current_select_item'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+[2026-03-15 22:45:10]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C231 IN LINE 4 OF .\Src\Driver\KEY\key.c: 'st_date': redefinition
+*** ERROR C129 IN LINE 5 OF .\Src\Driver\KEY\key.c: missing ';' before 'current_select_item'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+[2026-03-15 22:47:32]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C129 IN LINE 5 OF .\Src\Driver\KEY\key.c: missing ';' before 'current_select_item'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-03-15 22:50:06]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C129 IN LINE 5 OF .\Src\Driver\KEY\key.c: missing ';' before 'current_select_item'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-03-15 22:51:20]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C129 IN LINE 27 OF .\Src\Driver\KEY\key.h: missing ';' before 'current_select_item'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-03-15 22:53:21]	compilation failed at : "e:\51_practise\simple_clock\Src\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\main.lst") OBJECT(".\build\Target 1\.obj\Src\main.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C231 IN LINE 10 OF .\Src\main.c: 'current_select_item': redefinition
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-03-15 22:53:37]	[done]
+	build successfully !
+
+[2026-03-16 20:56:07]	[done]
+	build successfully !
+
+[2026-03-16 21:05:36]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C214 IN LINE 127 OF .\Src\Driver\KEY\key.c: illegal pointer conversion
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-03-16 21:05:55]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C214 IN LINE 127 OF .\Src\Driver\KEY\key.c: illegal pointer conversion
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-03-16 21:07:39]	compilation failed at : "e:\51_practise\simple_clock\Src\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\main.lst") OBJECT(".\build\Target 1\.obj\Src\main.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 70 OF .\Src\main.c: syntax error near '', expected '__asm'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-03-16 21:08:07]	[done]
+	build successfully !
+
+[2026-03-16 21:08:26]	[done]
+	build successfully !
+
+[2026-03-16 21:09:20]	compilation failed at : "e:\51_practise\simple_clock\Src\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\main.lst") OBJECT(".\build\Target 1\.obj\Src\main.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C202 IN LINE 48 OF .\Src\main.c: 'str': undefined identifier
+*** ERROR C202 IN LINE 52 OF .\Src\main.c: 'str': undefined identifier
+*** ERROR C202 IN LINE 55 OF .\Src\main.c: 'str': undefined identifier
+*** ERROR C202 IN LINE 56 OF .\Src\main.c: 'str': undefined identifier
+*** ERROR C202 IN LINE 59 OF .\Src\main.c: 'str': undefined identifier
+*** ERROR C202 IN LINE 64 OF .\Src\main.c: 'str': undefined identifier
+*** ERROR C141 IN LINE 71 OF .\Src\main.c: syntax error near '}', expected 'hdata'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  7 ERROR(S)
+
+[2026-03-16 21:09:26]	compilation failed at : "e:\51_practise\simple_clock\Src\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\main.lst") OBJECT(".\build\Target 1\.obj\Src\main.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 71 OF .\Src\main.c: syntax error near '}', expected 'hdata'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-03-16 21:10:12]	[done]
+	build successfully !
+
+[2026-03-16 21:12:59]	[done]
+	build successfully !
+
+[2026-03-16 21:13:26]	[done]
+	build successfully !
+
+[2026-03-16 21:15:02]	[done]
+	build successfully !
+
+[2026-03-16 21:16:09]	[done]
+	build successfully !
+
+[2026-03-16 21:18:10]	[done]
+	build successfully !
+
+[2026-03-16 21:18:46]	[done]
+	build successfully !
+
+[2026-03-16 21:20:40]	compilation failed at : "e:\51_practise\simple_clock\Src\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\main.lst") OBJECT(".\build\Target 1\.obj\Src\main.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C200 IN LINE 10 OF .\Src\main.c: left side of '.' requires struct/union
+*** ERROR C202 IN LINE 24 OF .\Src\main.c: 'st_date': undefined identifier
+*** ERROR C202 IN LINE 31 OF .\Src\main.c: 'st_date': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  3 ERROR(S)
+
+[2026-03-16 21:22:29]	compilation failed at : "e:\51_practise\simple_clock\Src\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\main.lst") OBJECT(".\build\Target 1\.obj\Src\main.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C202 IN LINE 42 OF .\Src\main.c: 'WEEK_NAME': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-03-16 21:23:00]	[done]
+	build successfully !
+
+[2026-03-16 21:43:48]	[done]
+	build successfully !
+
+[2026-03-16 21:43:59]	[done]
+	build successfully !
+
+[2026-03-16 21:46:14]	[done]
+	build successfully !
+
+[2026-03-16 21:48:45]	[done]
+	build successfully !
+
+[2026-03-16 21:50:31]	[done]
+	build successfully !
+
+[2026-03-16 21:54:04]	[done]
+	build successfully !
+
+[2026-03-16 21:55:04]	[done]
+	build successfully !
+
+[2026-03-16 21:58:00]	compilation failed at : "e:\51_practise\simple_clock\Src\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\main.lst") OBJECT(".\build\Target 1\.obj\Src\main.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C202 IN LINE 45 OF .\Src\main.c: 'WEEK_NAME': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-03-16 21:58:29]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+"@e:\51_practise\simple_clock\build\Target 1\simple_clock.lnp" ".\build\Target 1\.obj\Src\Driver\BUZZER\buzzer.o",".\build\Target 1\.obj\Src\Driver\DS1302\ds1302.o",".\build\Target 1\.obj\Src\Driver\KEY\key.o",".\build\Target 1\.obj\Src\Driver\LED\led.o",".\build\Target 1\.obj\Src\Driver\OLED_SS1314\ss1314.o",".\build\Target 1\.obj\Src\Interface\COM\com.o",".\build\Target 1\.obj\Src\Interface\IIC\iic.o",".\build\Target 1\.obj\Src\Interface\UART\uart.o",".\build\Target 1\.obj\Src\STARTUP.o",".\build\Target 1\.obj\Src\main.o" TO ".\build\Target 1\simple_clock"
+PRINT(".\build\Target 1\simple_clock.map") REMOVEUNUSED
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WEEK_NAME
+    MODULE:  .\build\Target 1\.obj\Src\main.o (MAIN)
+   DEFINED:  .\build\Target 1\.obj\Src\Driver\KEY\key.o (KEY)
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    _OLED_WRITECMDS/SS1314
+    CALLER1: INT0_ISR/KEY
+    CALLER2: ?C_C51STARTUP
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    _IIC_SENDBYTE/IIC
+    CALLER1: INT0_ISR/KEY
+    CALLER2: ?C_C51STARTUP
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    IIC_RECEIVEACK/IIC
+    CALLER1: INT0_ISR/KEY
+    CALLER2: ?C_C51STARTUP
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    PRINTF/PRINTF
+    CALLER1: INT0_ISR/KEY
+    CALLER2: ?C_C51STARTUP
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    _OLED_SHOWSTR/SS1314
+    CALLER1: INT0_ISR/KEY
+    CALLER2: ?C_C51STARTUP
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    _OLED_SETPOSITION/SS1314
+    CALLER1: INT0_ISR/KEY
+    CALLER2: ?C_C51STARTUP
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    _OLED_WRITEDATAS/SS1314
+    CALLER1: INT0_ISR/KEY
+    CALLER2: ?C_C51STARTUP
+
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA
+    SEGMENT: ?DT?MAIN
+    LENGTH:  00001CH   
+
+Program Size: data=130.3 xdata=17 const=1706 code=4182
+LX51 RUN COMPLETE.  7 WARNING(S),  2 ERROR(S)
+
+
+[2026-03-16 21:59:02]	compilation failed at : "e:\51_practise\simple_clock\Src\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\main.lst") OBJECT(".\build\Target 1\.obj\Src\main.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C200 IN LINE 12 OF .\Src\main.c: left side of '.' requires struct/union
+*** ERROR C202 IN LINE 26 OF .\Src\main.c: 'st_date': undefined identifier
+*** ERROR C202 IN LINE 33 OF .\Src\main.c: 'st_date': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  3 ERROR(S)
+
+[2026-03-16 21:59:32]	compilation failed at : "e:\51_practise\simple_clock\Src\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\main.lst") OBJECT(".\build\Target 1\.obj\Src\main.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C200 IN LINE 13 OF .\Src\main.c: left side of '.' requires struct/union
+*** ERROR C202 IN LINE 27 OF .\Src\main.c: 'st_date': undefined identifier
+*** ERROR C202 IN LINE 34 OF .\Src\main.c: 'st_date': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  3 ERROR(S)
+
+[2026-03-16 22:00:14]	compilation failed at : "e:\51_practise\simple_clock\Src\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\main.lst") OBJECT(".\build\Target 1\.obj\Src\main.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C200 IN LINE 13 OF .\Src\main.c: left side of '.' requires struct/union
+*** ERROR C202 IN LINE 27 OF .\Src\main.c: 'st_date': undefined identifier
+*** ERROR C202 IN LINE 34 OF .\Src\main.c: 'st_date': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  3 ERROR(S)
+
+[2026-03-16 22:00:28]	compilation failed at : "e:\51_practise\simple_clock\Src\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\main.lst") OBJECT(".\build\Target 1\.obj\Src\main.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C200 IN LINE 13 OF .\Src\main.c: left side of '.' requires struct/union
+*** ERROR C202 IN LINE 27 OF .\Src\main.c: 'st_date': undefined identifier
+*** ERROR C202 IN LINE 34 OF .\Src\main.c: 'st_date': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  3 ERROR(S)
+
+[2026-03-16 22:01:14]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C202 IN LINE 65 OF .\Src\Driver\KEY\key.c: 'WEEK_NAME': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-03-16 22:01:39]	compilation failed at : "e:\51_practise\simple_clock\Src\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\main.lst") OBJECT(".\build\Target 1\.obj\Src\main.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C200 IN LINE 22 OF .\Src\main.c: left side of '.' requires struct/union
+*** ERROR C202 IN LINE 36 OF .\Src\main.c: 'st_date': undefined identifier
+*** ERROR C202 IN LINE 43 OF .\Src\main.c: 'st_date': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  3 ERROR(S)
+
+[2026-03-16 22:01:56]	compilation failed at : "e:\51_practise\simple_clock\Src\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\main.lst") OBJECT(".\build\Target 1\.obj\Src\main.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C200 IN LINE 22 OF .\Src\main.c: left side of '.' requires struct/union
+*** ERROR C202 IN LINE 36 OF .\Src\main.c: 'st_date': undefined identifier
+*** ERROR C202 IN LINE 43 OF .\Src\main.c: 'st_date': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  3 ERROR(S)
+
+[2026-03-16 22:02:06]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C202 IN LINE 65 OF .\Src\Driver\KEY\key.c: 'WEEK_NAME': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-03-16 22:02:48]	compilation failed at : "e:\51_practise\simple_clock\Src\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\main.lst") OBJECT(".\build\Target 1\.obj\Src\main.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C200 IN LINE 22 OF .\Src\main.c: left side of '.' requires struct/union
+*** ERROR C202 IN LINE 36 OF .\Src\main.c: 'st_date': undefined identifier
+*** ERROR C202 IN LINE 43 OF .\Src\main.c: 'st_date': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  3 ERROR(S)
+
+[2026-03-16 22:02:57]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C202 IN LINE 65 OF .\Src\Driver\KEY\key.c: 'WEEK_NAME': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-03-16 22:04:32]	compilation failed at : "e:\51_practise\simple_clock\Src\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\main.lst") OBJECT(".\build\Target 1\.obj\Src\main.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C200 IN LINE 12 OF .\Src\main.c: left side of '.' requires struct/union
+*** ERROR C202 IN LINE 26 OF .\Src\main.c: 'st_date': undefined identifier
+*** ERROR C202 IN LINE 33 OF .\Src\main.c: 'st_date': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  3 ERROR(S)
+
+[2026-03-16 22:05:22]	compilation failed at : "e:\51_practise\simple_clock\Src\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\main.lst") OBJECT(".\build\Target 1\.obj\Src\main.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C200 IN LINE 13 OF .\Src\main.c: left side of '.' requires struct/union
+*** ERROR C202 IN LINE 27 OF .\Src\main.c: 'st_date': undefined identifier
+*** ERROR C202 IN LINE 34 OF .\Src\main.c: 'st_date': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  3 ERROR(S)
+
+[2026-03-16 22:05:43]	compilation failed at : "e:\51_practise\simple_clock\Src\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\main.lst") OBJECT(".\build\Target 1\.obj\Src\main.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C200 IN LINE 14 OF .\Src\main.c: left side of '.' requires struct/union
+*** ERROR C202 IN LINE 27 OF .\Src\main.c: 'st_date': undefined identifier
+*** ERROR C202 IN LINE 34 OF .\Src\main.c: 'st_date': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  3 ERROR(S)
+
+[2026-03-16 22:06:37]	compilation failed at : "e:\51_practise\simple_clock\Src\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\main.lst") OBJECT(".\build\Target 1\.obj\Src\main.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C202 IN LINE 27 OF .\Src\main.c: 'st_date': undefined identifier
+*** ERROR C202 IN LINE 34 OF .\Src\main.c: 'st_date': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+[2026-03-16 22:07:09]	compilation failed at : "e:\51_practise\simple_clock\Src\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\main.lst") OBJECT(".\build\Target 1\.obj\Src\main.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C200 IN LINE 37 OF .\Src\main.c: left side of '.' requires struct/union
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-03-16 22:08:03]	compilation failed at : "e:\51_practise\simple_clock\Src\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\main.lst") OBJECT(".\build\Target 1\.obj\Src\main.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C200 IN LINE 43 OF .\Src\main.c: left side of '.' requires struct/union
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-03-16 22:08:57]	[done]
+	build successfully !
+
+[2026-03-16 22:14:13]	[done]
+	build successfully !
+
+[2026-03-16 22:14:31]	compilation failed at : "e:\51_practise\simple_clock\Src\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\main.lst") OBJECT(".\build\Target 1\.obj\Src\main.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C183 IN LINE 13 OF .\Src\main.c: unmodifiable lvalue
+*** ERROR C183 IN LINE 14 OF .\Src\main.c: unmodifiable lvalue
+*** ERROR C183 IN LINE 15 OF .\Src\main.c: unmodifiable lvalue
+*** ERROR C183 IN LINE 16 OF .\Src\main.c: unmodifiable lvalue
+*** ERROR C183 IN LINE 17 OF .\Src\main.c: unmodifiable lvalue
+*** ERROR C183 IN LINE 18 OF .\Src\main.c: unmodifiable lvalue
+*** ERROR C183 IN LINE 19 OF .\Src\main.c: unmodifiable lvalue
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  7 ERROR(S)
+
+[2026-03-16 22:14:53]	[done]
+	build successfully !
+
+[2026-03-16 22:19:48]	[done]
+	build successfully !
+
+[2026-03-16 22:30:51]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 116 OF .\Src\Driver\KEY\key.c: syntax error near 'void', expected '__asm'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-03-16 22:31:23]	[done]
+	build successfully !
+
+[2026-03-16 22:44:26]	[done]
+	build successfully !
+
+[2026-03-16 22:52:02]	[done]
+	build successfully !
+
+[2026-03-16 23:05:25]	[done]
+	build successfully !
+
+[2026-03-16 23:20:04]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+"@e:\51_practise\simple_clock\build\Target 1\simple_clock.lnp" ".\build\Target 1\.obj\Src\Driver\BUZZER\buzzer.o",".\build\Target 1\.obj\Src\Driver\DS1302\ds1302.o",".\build\Target 1\.obj\Src\Driver\KEY\key.o",".\build\Target 1\.obj\Src\Driver\LED\led.o",".\build\Target 1\.obj\Src\Driver\OLED_SS1314\ss1314.o",".\build\Target 1\.obj\Src\Interface\COM\com.o",".\build\Target 1\.obj\Src\Interface\IIC\iic.o",".\build\Target 1\.obj\Src\Interface\UART\uart.o",".\build\Target 1\.obj\Src\STARTUP.o",".\build\Target 1\.obj\Src\main.o" TO ".\build\Target 1\simple_clock"
+PRINT(".\build\Target 1\simple_clock.map") REMOVEUNUSED
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    _OLED_WRITECMDS/SS1314
+    CALLER1: INT0_ISR/KEY
+    CALLER2: ?C_C51STARTUP
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    _IIC_SENDBYTE/IIC
+    CALLER1: INT0_ISR/KEY
+    CALLER2: ?C_C51STARTUP
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    IIC_RECEIVEACK/IIC
+    CALLER1: INT0_ISR/KEY
+    CALLER2: ?C_C51STARTUP
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    PRINTF/PRINTF
+    CALLER1: INT0_ISR/KEY
+    CALLER2: ?C_C51STARTUP
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    _OLED_SHOWSTR/SS1314
+    CALLER1: INT0_ISR/KEY
+    CALLER2: ?C_C51STARTUP
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    _OLED_SETPOSITION/SS1314
+    CALLER1: INT0_ISR/KEY
+    CALLER2: ?C_C51STARTUP
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    _OLED_WRITEDATAS/SS1314
+    CALLER1: INT0_ISR/KEY
+    CALLER2: ?C_C51STARTUP
+
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA
+    SEGMENT: ?DT?KEY
+    LENGTH:  00001DH   
+
+Program Size: data=113.4 xdata=17 const=1659 code=4529
+LX51 RUN COMPLETE.  7 WARNING(S),  1 ERROR(S)
+
+
+[2026-03-16 23:21:28]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+"@e:\51_practise\simple_clock\build\Target 1\simple_clock.lnp" ".\build\Target 1\.obj\Src\Driver\BUZZER\buzzer.o",".\build\Target 1\.obj\Src\Driver\DS1302\ds1302.o",".\build\Target 1\.obj\Src\Driver\KEY\key.o",".\build\Target 1\.obj\Src\Driver\LED\led.o",".\build\Target 1\.obj\Src\Driver\OLED_SS1314\ss1314.o",".\build\Target 1\.obj\Src\Interface\COM\com.o",".\build\Target 1\.obj\Src\Interface\IIC\iic.o",".\build\Target 1\.obj\Src\Interface\UART\uart.o",".\build\Target 1\.obj\Src\STARTUP.o",".\build\Target 1\.obj\Src\main.o" TO ".\build\Target 1\simple_clock"
+PRINT(".\build\Target 1\simple_clock.map") REMOVEUNUSED
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    _OLED_WRITECMDS/SS1314
+    CALLER1: INT0_ISR/KEY
+    CALLER2: ?C_C51STARTUP
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    _IIC_SENDBYTE/IIC
+    CALLER1: INT0_ISR/KEY
+    CALLER2: ?C_C51STARTUP
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    IIC_RECEIVEACK/IIC
+    CALLER1: INT0_ISR/KEY
+    CALLER2: ?C_C51STARTUP
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    PRINTF/PRINTF
+    CALLER1: INT0_ISR/KEY
+    CALLER2: ?C_C51STARTUP
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    _OLED_SHOWSTR/SS1314
+    CALLER1: INT0_ISR/KEY
+    CALLER2: ?C_C51STARTUP
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    _OLED_SETPOSITION/SS1314
+    CALLER1: INT0_ISR/KEY
+    CALLER2: ?C_C51STARTUP
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    _OLED_WRITEDATAS/SS1314
+    CALLER1: INT0_ISR/KEY
+    CALLER2: ?C_C51STARTUP
+
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA
+    SEGMENT: ?DT?KEY
+    LENGTH:  00001DH   
+
+Program Size: data=113.4 xdata=17 const=1659 code=4538
+LX51 RUN COMPLETE.  7 WARNING(S),  1 ERROR(S)
+
+
+[2026-03-16 23:21:44]	[done]
+	build successfully !
+
+[2026-03-16 23:23:15]	[done]
+	build successfully !
+
+[2026-03-17 20:41:25]	[done]
+	build successfully !
+
+[2026-03-17 20:44:07]	[done]
+	build successfully !
+
+[2026-03-17 20:48:58]	compilation failed at : "e:\51_practise\simple_clock\Src\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\main.lst") OBJECT(".\build\Target 1\.obj\Src\main.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C181 IN LINE 38 OF .\Src\main.c: incompatible operand
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-03-17 20:50:52]	[done]
+	build successfully !
+
+[2026-03-17 20:54:50]	[done]
+	build successfully !
+
+[2026-03-17 20:58:50]	[done]
+	build successfully !
+
+[2026-03-17 21:01:12]	[done]
+	build successfully !
+
+[2026-03-17 21:02:13]	[done]
+	build successfully !
+
+[2026-03-17 21:02:55]	[done]
+	build successfully !
+
+[2026-03-17 21:06:11]	[done]
+	build successfully !
+
+[2026-03-17 21:30:20]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+"@e:\51_practise\simple_clock\build\Target 1\simple_clock.lnp" ".\build\Target 1\.obj\Src\Driver\BUZZER\buzzer.o",".\build\Target 1\.obj\Src\Driver\DS1302\ds1302.o",".\build\Target 1\.obj\Src\Driver\KEY\key.o",".\build\Target 1\.obj\Src\Driver\LED\led.o",".\build\Target 1\.obj\Src\Driver\OLED_SS1314\ss1314.o",".\build\Target 1\.obj\Src\Interface\COM\com.o",".\build\Target 1\.obj\Src\Interface\IIC\iic.o",".\build\Target 1\.obj\Src\Interface\UART\uart.o",".\build\Target 1\.obj\Src\STARTUP.o",".\build\Target 1\.obj\Src\main.o" TO ".\build\Target 1\simple_clock"
+PRINT(".\build\Target 1\simple_clock.map") REMOVEUNUSED
+
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DS1302_GetDate
+    MODULE:  .\build\Target 1\.obj\Src\main.o (MAIN)
+
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DS1302_SetDate
+    MODULE:  .\build\Target 1\.obj\Src\main.o (MAIN)
+
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DS1302_SetDate
+    MODULE:  .\build\Target 1\.obj\Src\main.o (MAIN)
+    ADDRESS: 1000918H
+
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DS1302_GetDate
+    MODULE:  .\build\Target 1\.obj\Src\main.o (MAIN)
+    ADDRESS: 1000933H
+
+Program Size: data=131.3 xdata=17 const=1741 code=3992
+LX51 RUN COMPLETE.  0 WARNING(S),  4 ERROR(S)
+
+
+[2026-03-17 21:31:34]	[done]
+	build successfully !
+
+[2026-03-17 21:34:46]	[done]
+	build successfully !
+
+[2026-03-17 21:41:37]	[done]
+	build successfully !
+
+[2026-03-17 21:43:03]	[done]
+	build successfully !
+
+[2026-03-17 21:43:55]	[done]
+	build successfully !
+
+[2026-03-17 21:58:36]	[done]
+	build successfully !
+
+[2026-03-17 22:00:59]	[done]
+	build successfully !
+
+[2026-03-17 22:09:11]	[done]
+	build successfully !
+
+[2026-03-17 22:09:39]	[done]
+	build successfully !
+
+[2026-03-17 22:12:59]	[done]
+	build successfully !
+
+[2026-03-17 22:14:08]	[done]
+	build successfully !
+
+[2026-03-17 22:17:13]	[done]
+	build successfully !
+
+[2026-03-17 22:17:34]	[done]
+	build successfully !
+
+[2026-03-17 22:21:34]	[done]
+	build successfully !
+
+[2026-03-17 22:29:36]	[done]
+	build successfully !
+
+[2026-03-17 22:31:19]	[done]
+	build successfully !
+
+[2026-03-17 22:33:13]	[done]
+	build successfully !
+
+[2026-03-18 21:26:36]	[done]
+	build successfully !
+
+[2026-03-18 21:51:43]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C255 IN LINE 48 OF .\Src\Driver\KEY\key.c: switch expression has illegal type
+*** ERROR C220 IN LINE 50 OF .\Src\Driver\KEY\key.c: illegal constant expression
+*** ERROR C220 IN LINE 61 OF .\Src\Driver\KEY\key.c: illegal constant expression
+*** ERROR C220 IN LINE 72 OF .\Src\Driver\KEY\key.c: illegal constant expression
+*** ERROR C220 IN LINE 83 OF .\Src\Driver\KEY\key.c: illegal constant expression
+*** ERROR C220 IN LINE 98 OF .\Src\Driver\KEY\key.c: illegal constant expression
+*** ERROR C220 IN LINE 109 OF .\Src\Driver\KEY\key.c: illegal constant expression
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  7 ERROR(S)
+
+[2026-03-18 21:52:18]	[done]
+	build successfully !
+
+[2026-03-18 22:03:43]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C200 IN LINE 53 OF .\Src\Driver\KEY\key.c: left side of '->' requires struct/union pointer
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-03-18 22:04:24]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C195 IN LINE 53 OF .\Src\Driver\KEY\key.c: '*' illegal indirection
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-03-18 22:05:23]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C200 IN LINE 53 OF .\Src\Driver\KEY\key.c: left side of '->' requires struct/union pointer
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-03-18 22:09:03]	[done]
+	build successfully !
+
+[2026-03-18 22:09:19]	compilation failed at : "e:\51_practise\simple_clock\Src\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\main.lst") OBJECT(".\build\Target 1\.obj\Src\main.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C195 IN LINE 39 OF .\Src\main.c: '*' illegal indirection
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-03-18 22:09:32]	[done]
+	build successfully !
+
+[2026-03-18 22:13:16]	[done]
+	build successfully !
+
+[2026-03-18 22:18:33]	[done]
+	build successfully !
+
+[2026-03-18 22:21:57]	[done]
+	build successfully !
+
+[2026-03-18 22:31:09]	[done]
+	build successfully !
+
+[2026-03-18 22:32:09]	[done]
+	build successfully !
+
+[2026-03-18 22:34:42]	[done]
+	build successfully !
+
+[2026-03-18 22:36:27]	compilation failed at : "e:\51_practise\simple_clock\Src\Driver\KEY\key.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Src\Driver\KEY\key.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Src/Interface/Com;Src/Interface/1_wire;Src/Interface/IIC;Src/Interface/UART;Src/Driver/BUZZER;Src/Driver/DS18B20;Src/Driver/DS1302;Src/Driver/EEPROM;Src/Driver/KEY;Src/Driver/LED;Src/Driver/OLED_SS1314;Src;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Src\Driver\KEY\key.lst") OBJECT(".\build\Target 1\.obj\Src\Driver\KEY\key.o")
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 73 OF .\Src\Driver\KEY\key.c: syntax error near '{', expected 'sizeof'
+*** ERROR C141 IN LINE 73 OF .\Src\Driver\KEY\key.c: syntax error near '}', expected ';'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+[2026-03-18 22:37:52]	[done]
+	build successfully !
+
+[2026-03-18 22:41:36]	[done]
+	build successfully !
+
+[2026-03-18 22:45:14]	[done]
+	build successfully !
+
+[2026-03-18 22:49:06]	[done]
+	build successfully !
+

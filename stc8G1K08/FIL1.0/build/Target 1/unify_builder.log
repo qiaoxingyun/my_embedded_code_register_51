@@ -1,0 +1,540 @@
+[2026-02-03 22:44:48]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+"@e:\51_practise\FIL1.0\build\Target 1\file_1.0.lnp" ".\build\Target 1\.obj\STARTUP.o",".\build\Target 1\.obj\Users\main.o",".\build\Target 1\.obj\delay\delay.o",".\build\Target 1\.obj\key_light\key_light.o",".\build\Target 1\.obj\key_state\key_state.o" TO ".\build\Target 1\file_1.0"
+PRINT(".\build\Target 1\file_1.0.map") REMOVEUNUSED
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  state_LED
+    MODULE:  .\build\Target 1\.obj\key_state\key_state.o (KEY_STATE)
+   DEFINED:  .\build\Target 1\.obj\Users\main.o (MAIN)
+
+Program Size: data=11.0 xdata=0 const=0 code=410
+LX51 RUN COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+
+[2026-02-03 22:52:40]	compilation failed at : "e:\51_practise\FIL1.0\Users\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Users\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(key_state;delay;key_light;Users;.;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Users\main.lst") OBJECT(".\build\Target 1\.obj\Users\main.o")
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C230 IN LINE 13 OF key_state\key_state.h: 'state': unknown struct/union/enum tag
+*** ERROR C129 IN LINE 15 OF key_state\key_state.h: missing ';' before 'void'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+[2026-02-03 22:57:03]	compilation failed at : "e:\51_practise\FIL1.0\Users\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Users\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(key_state;delay;key_light;Users;.;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Users\main.lst") OBJECT(".\build\Target 1\.obj\Users\main.o")
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C230 IN LINE 15 OF key_state\key_state.h: 'state_LED': unknown struct/union/enum tag
+*** ERROR C141 IN LINE 15 OF key_state\key_state.h: syntax error near 'void', expected 'hdata'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+[2026-02-03 23:00:30]	compilation failed at : "e:\51_practise\FIL1.0\Users\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Users\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(key_state;delay;key_light;Users;.;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Users\main.lst") OBJECT(".\build\Target 1\.obj\Users\main.o")
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C230 IN LINE 15 OF key_state\key_state.h: 'state': unknown struct/union/enum tag
+*** ERROR C141 IN LINE 15 OF key_state\key_state.h: syntax error near 'void', expected 'hdata'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+[2026-02-03 23:02:06]	compilation failed at : "e:\51_practise\FIL1.0\Users\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Users\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(key_state;delay;key_light;Users;.;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Users\main.lst") OBJECT(".\build\Target 1\.obj\Users\main.o")
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C230 IN LINE 14 OF key_state\key_state.h: 'state': unknown struct/union/enum tag
+*** ERROR C141 IN LINE 14 OF key_state\key_state.h: syntax error near 'extern', expected 'hdata'
+*** ERROR C129 IN LINE 14 OF key_state\key_state.h: missing ';' before 'state_LED'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  3 ERROR(S)
+
+[2026-02-03 23:02:18]	compilation failed at : "e:\51_practise\FIL1.0\Users\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Users\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(key_state;delay;key_light;Users;.;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Users\main.lst") OBJECT(".\build\Target 1\.obj\Users\main.o")
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C230 IN LINE 14 OF key_state\key_state.h: 'state': unknown struct/union/enum tag
+*** ERROR C141 IN LINE 14 OF key_state\key_state.h: syntax error near 'extern', expected 'hdata'
+*** ERROR C230 IN LINE 14 OF key_state\key_state.h: 'state': unknown struct/union/enum tag
+*** ERROR C129 IN LINE 16 OF key_state\key_state.h: missing ';' before 'void'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  4 ERROR(S)
+
+[2026-02-03 23:05:24]	compilation failed at : "e:\51_practise\FIL1.0\Users\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Users\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(key_state;delay;key_light;Users;.;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Users\main.lst") OBJECT(".\build\Target 1\.obj\Users\main.o")
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C129 IN LINE 24 OF key_state\key_state.h: missing ';' before 'void'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-02-03 23:05:38]	[done]
+	build successfully !
+
+[2026-02-07 22:35:22]	[done]
+	build successfully !
+
+[2026-02-07 22:38:02]	[done]
+	build successfully !
+
+[2026-02-08 21:43:47]	[done]
+	build successfully !
+
+[2026-02-08 21:44:40]	[done]
+	build successfully !
+
+[2026-02-08 21:45:33]	[done]
+	build successfully !
+
+[2026-02-08 21:45:55]	[done]
+	build successfully !
+
+[2026-02-08 21:53:18]	[done]
+	build successfully !
+
+[2026-02-08 22:02:09]	[done]
+	build successfully !
+
+[2026-02-08 22:04:44]	[done]
+	build successfully !
+
+[2026-02-08 22:10:24]	[done]
+	build successfully !
+
+[2026-02-08 22:21:20]	[done]
+	build successfully !
+
+[2026-02-08 22:22:42]	[done]
+	build successfully !
+
+[2026-02-08 22:24:39]	[done]
+	build successfully !
+
+[2026-02-08 22:25:01]	[done]
+	build successfully !
+
+[2026-02-08 22:27:49]	[done]
+	build successfully !
+
+[2026-02-08 22:29:26]	[done]
+	build successfully !
+
+[2026-02-08 22:33:53]	compilation failed at : "e:\51_practise\FIL1.0\Timer2\Timer2.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Timer2\Timer2.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(key_state;delay;key_light;Users;.;Timer2;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Timer2\Timer2.lst") OBJECT(".\build\Target 1\.obj\Timer2\Timer2.o")
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C129 IN LINE 17 OF key_state\key_state.h: missing ';' before 'enum'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-02-08 22:34:00]	[done]
+	build successfully !
+
+[2026-02-08 22:36:50]	[done]
+	build successfully !
+
+[2026-02-08 22:57:33]	compilation failed at : "e:\51_practise\FIL1.0\Timer2\Timer2.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Timer2\Timer2.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(key_state;delay;key_light;Users;.;Timer2;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Timer2\Timer2.lst") OBJECT(".\build\Target 1\.obj\Timer2\Timer2.o")
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C230 IN LINE 7 OF .\Timer2\Timer2.h: 'state': unknown struct/union/enum tag
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-02-08 22:57:51]	compilation failed at : "e:\51_practise\FIL1.0\Timer2\Timer2.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Timer2\Timer2.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(key_state;delay;key_light;Users;.;Timer2;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Timer2\Timer2.lst") OBJECT(".\build\Target 1\.obj\Timer2\Timer2.o")
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C230 IN LINE 7 OF .\Timer2\Timer2.h: 'state_LED': unknown struct/union/enum tag
+*** ERROR C230 IN LINE 7 OF .\Timer2\Timer2.h: 'state_LED': unknown struct/union/enum tag
+*** ERROR C279 IN LINE 10 OF .\Timer2\Timer2.h: 'duty': multiple initialization
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  3 ERROR(S)
+
+[2026-02-08 22:58:07]	compilation failed at : "e:\51_practise\FIL1.0\Timer2\Timer2.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Timer2\Timer2.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(key_state;delay;key_light;Users;.;Timer2;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Timer2\Timer2.lst") OBJECT(".\build\Target 1\.obj\Timer2\Timer2.o")
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C230 IN LINE 7 OF .\Timer2\Timer2.h: 'state': unknown struct/union/enum tag
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-02-08 22:58:32]	compilation failed at : "e:\51_practise\FIL1.0\Timer2\Timer2.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Timer2\Timer2.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(key_state;delay;key_light;Users;.;Timer2;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Timer2\Timer2.lst") OBJECT(".\build\Target 1\.obj\Timer2\Timer2.o")
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C231 IN LINE 19 OF key_state\key_state.h: 'state_1': redefinition
+*** ERROR C231 IN LINE 20 OF key_state\key_state.h: 'state_2': redefinition
+*** ERROR C231 IN LINE 21 OF key_state\key_state.h: 'state_3': redefinition
+*** ERROR C231 IN LINE 22 OF key_state\key_state.h: 'state_4': redefinition
+*** ERROR C231 IN LINE 23 OF key_state\key_state.h: 'state_5': redefinition
+*** ERROR C226 IN LINE 24 OF key_state\key_state.h: 'state': duplicate struct/union/enum tag
+*** ERROR C231 IN LINE 9 OF .\Timer2\Timer2.h: 'state_1': redefinition
+*** ERROR C231 IN LINE 10 OF .\Timer2\Timer2.h: 'state_2': redefinition
+*** ERROR C231 IN LINE 11 OF .\Timer2\Timer2.h: 'state_3': redefinition
+*** ERROR C231 IN LINE 12 OF .\Timer2\Timer2.h: 'state_4': redefinition
+*** ERROR C231 IN LINE 13 OF .\Timer2\Timer2.h: 'state_5': redefinition
+*** ERROR C226 IN LINE 14 OF .\Timer2\Timer2.h: 'state': duplicate struct/union/enum tag
+*** ERROR C279 IN LINE 19 OF .\Timer2\Timer2.h: 'duty': multiple initialization
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  13 ERROR(S)
+
+[2026-02-08 22:58:57]	compilation failed at : "e:\51_practise\FIL1.0\Timer2\Timer2.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Timer2\Timer2.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(key_state;delay;key_light;Users;.;Timer2;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Timer2\Timer2.lst") OBJECT(".\build\Target 1\.obj\Timer2\Timer2.o")
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C231 IN LINE 9 OF .\Timer2\Timer2.h: 'state_1': redefinition
+*** ERROR C231 IN LINE 10 OF .\Timer2\Timer2.h: 'state_2': redefinition
+*** ERROR C231 IN LINE 11 OF .\Timer2\Timer2.h: 'state_3': redefinition
+*** ERROR C231 IN LINE 12 OF .\Timer2\Timer2.h: 'state_4': redefinition
+*** ERROR C231 IN LINE 13 OF .\Timer2\Timer2.h: 'state_5': redefinition
+*** ERROR C226 IN LINE 14 OF .\Timer2\Timer2.h: 'state': duplicate struct/union/enum tag
+*** ERROR C279 IN LINE 19 OF .\Timer2\Timer2.h: 'duty': multiple initialization
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  7 ERROR(S)
+
+[2026-02-08 22:59:15]	compilation failed at : "e:\51_practise\FIL1.0\Timer2\Timer2.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Timer2\Timer2.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(key_state;delay;key_light;Users;.;Timer2;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Timer2\Timer2.lst") OBJECT(".\build\Target 1\.obj\Timer2\Timer2.o")
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C230 IN LINE 7 OF .\Timer2\Timer2.h: 'state': unknown struct/union/enum tag
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-02-08 23:00:02]	compilation failed at : "e:\51_practise\FIL1.0\Timer2\Timer2.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Timer2\Timer2.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(key_state;delay;key_light;Users;.;Timer2;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Timer2\Timer2.lst") OBJECT(".\build\Target 1\.obj\Timer2\Timer2.o")
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C230 IN LINE 7 OF .\Timer2\Timer2.h: 'state': unknown struct/union/enum tag
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-02-08 23:00:26]	compilation failed at : "e:\51_practise\FIL1.0\Timer2\Timer2.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Timer2\Timer2.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(key_state;delay;key_light;Users;.;Timer2;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Timer2\Timer2.lst") OBJECT(".\build\Target 1\.obj\Timer2\Timer2.o")
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C230 IN LINE 7 OF .\Timer2\Timer2.h: 'state': unknown struct/union/enum tag
+*** ERROR C230 IN LINE 26 OF key_state\key_state.h: 'state': unknown struct/union/enum tag
+*** ERROR C230 IN LINE 7 OF .\Timer2\Timer2.h: 'state': unknown struct/union/enum tag
+*** ERROR C279 IN LINE 10 OF .\Timer2\Timer2.h: 'duty': multiple initialization
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  4 ERROR(S)
+
+[2026-02-08 23:02:07]	compilation failed at : "e:\51_practise\FIL1.0\Timer2\Timer2.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Timer2\Timer2.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(key_state;delay;key_light;Users;.;Timer2;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Timer2\Timer2.lst") OBJECT(".\build\Target 1\.obj\Timer2\Timer2.o")
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C230 IN LINE 7 OF .\Timer2\Timer2.h: 'state': unknown struct/union/enum tag
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-02-08 23:05:18]	compilation failed at : "e:\51_practise\FIL1.0\Timer2\Timer2.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Timer2\Timer2.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(key_state;delay;key_light;Users;.;Timer2;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Timer2\Timer2.lst") OBJECT(".\build\Target 1\.obj\Timer2\Timer2.o")
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C279 IN LINE 8 OF .\Timer2\Timer2.h: 'duty': multiple initialization
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-02-08 23:08:52]	compilation failed at : "e:\51_practise\FIL1.0\Users\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Users\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(key_state;delay;key_light;Users;.;Timer2;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Users\main.lst") OBJECT(".\build\Target 1\.obj\Users\main.o")
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C129 IN LINE 4 OF .\Users\main.c: missing ';' before 'duty'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-02-08 23:09:13]	compilation failed at : "e:\51_practise\FIL1.0\Users\main.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Users\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(key_state;delay;key_light;Users;.;Timer2;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Users\main.lst") OBJECT(".\build\Target 1\.obj\Users\main.o")
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C129 IN LINE 5 OF .\Users\main.c: missing ';' before 'duty'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-02-08 23:09:43]	compilation failed at : "e:\51_practise\FIL1.0\key_state\key_state.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\key_state\key_state.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(key_state;delay;key_light;Users;.;Timer2;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\key_state\key_state.lst") OBJECT(".\build\Target 1\.obj\key_state\key_state.o")
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 73 OF .\key_state\key_state.c: syntax error near 'unsigned', expected 'sizeof'
+*** ERROR C202 IN LINE 73 OF .\key_state\key_state.c: 'i': undefined identifier
+*** ERROR C202 IN LINE 73 OF .\key_state\key_state.c: 'i': undefined identifier
+*** ERROR C202 IN LINE 73 OF .\key_state\key_state.c: 'i': undefined identifier
+*** ERROR C141 IN LINE 73 OF .\key_state\key_state.c: syntax error near ')', expected ';'
+*** ERROR C141 IN LINE 80 OF .\key_state\key_state.c: syntax error near 'unsigned', expected 'sizeof'
+*** ERROR C202 IN LINE 80 OF .\key_state\key_state.c: 'i': undefined identifier
+*** ERROR C202 IN LINE 80 OF .\key_state\key_state.c: 'i': undefined identifier
+*** ERROR C202 IN LINE 80 OF .\key_state\key_state.c: 'i': undefined identifier
+*** ERROR C141 IN LINE 80 OF .\key_state\key_state.c: syntax error near ')', expected ';'
+*** ERROR C202 IN LINE 128 OF .\key_state\key_state.c: 'state_bit': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  11 ERROR(S)
+
+[2026-02-08 23:10:07]	compilation failed at : "e:\51_practise\FIL1.0\key_state\key_state.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\key_state\key_state.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(key_state;delay;key_light;Users;.;Timer2;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\key_state\key_state.lst") OBJECT(".\build\Target 1\.obj\key_state\key_state.o")
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 73 OF .\key_state\key_state.c: syntax error near 'unsigned', expected 'sizeof'
+*** ERROR C202 IN LINE 73 OF .\key_state\key_state.c: 'i': undefined identifier
+*** ERROR C202 IN LINE 73 OF .\key_state\key_state.c: 'i': undefined identifier
+*** ERROR C202 IN LINE 73 OF .\key_state\key_state.c: 'i': undefined identifier
+*** ERROR C141 IN LINE 73 OF .\key_state\key_state.c: syntax error near ')', expected ';'
+*** ERROR C141 IN LINE 80 OF .\key_state\key_state.c: syntax error near 'unsigned', expected 'sizeof'
+*** ERROR C202 IN LINE 80 OF .\key_state\key_state.c: 'i': undefined identifier
+*** ERROR C202 IN LINE 80 OF .\key_state\key_state.c: 'i': undefined identifier
+*** ERROR C202 IN LINE 80 OF .\key_state\key_state.c: 'i': undefined identifier
+*** ERROR C141 IN LINE 80 OF .\key_state\key_state.c: syntax error near ')', expected ';'
+*** ERROR C202 IN LINE 128 OF .\key_state\key_state.c: 'state_bit': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  11 ERROR(S)
+
+[2026-02-08 23:13:45]	[done]
+	build successfully !
+
+[2026-02-08 23:13:54]	[done]
+	build successfully !
+
+[2026-02-08 23:18:42]	[done]
+	build successfully !
+
+[2026-02-08 23:20:26]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+"@e:\51_practise\FIL1.0\build\Target 1\file_1.0.lnp" ".\build\Target 1\.obj\STARTUP.o",".\build\Target 1\.obj\Timer2\Timer2.o",".\build\Target 1\.obj\Users\main.o",".\build\Target 1\.obj\delay\delay.o",".\build\Target 1\.obj\key_light\key_light.o",".\build\Target 1\.obj\key_state\key_state.o" TO ".\build\Target 1\file_1.0"
+PRINT(".\build\Target 1\file_1.0.map") REMOVEUNUSED
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  duty
+    MODULE:  .\build\Target 1\.obj\key_state\key_state.o (KEY_STATE)
+   DEFINED:  .\build\Target 1\.obj\Users\main.o (MAIN)
+
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  duty
+    MODULE:  .\build\Target 1\.obj\Timer2\Timer2.o (TIMER2)
+    ADDRESS: 1000134H
+
+Program Size: data=14.0 xdata=0 const=0 code=565
+LX51 RUN COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+
+[2026-02-08 23:20:39]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+"@e:\51_practise\FIL1.0\build\Target 1\file_1.0.lnp" ".\build\Target 1\.obj\STARTUP.o",".\build\Target 1\.obj\Timer2\Timer2.o",".\build\Target 1\.obj\Users\main.o",".\build\Target 1\.obj\delay\delay.o",".\build\Target 1\.obj\key_light\key_light.o",".\build\Target 1\.obj\key_state\key_state.o" TO ".\build\Target 1\file_1.0"
+PRINT(".\build\Target 1\file_1.0.map") REMOVEUNUSED
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  duty
+    MODULE:  .\build\Target 1\.obj\key_state\key_state.o (KEY_STATE)
+   DEFINED:  .\build\Target 1\.obj\Users\main.o (MAIN)
+
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  duty
+    MODULE:  .\build\Target 1\.obj\Timer2\Timer2.o (TIMER2)
+    ADDRESS: 1000134H
+
+Program Size: data=14.0 xdata=0 const=0 code=565
+LX51 RUN COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+
+[2026-02-08 23:21:30]	[done]
+	build successfully !
+
+[2026-02-08 23:22:29]	[done]
+	build successfully !
+
+[2026-02-08 23:24:23]	[done]
+	build successfully !
+
+[2026-02-09 21:00:32]	[done]
+	build successfully !
+
+[2026-02-09 21:23:50]	[done]
+	build successfully !
+
+[2026-02-09 21:24:16]	[done]
+	build successfully !
+
+[2026-02-09 21:26:31]	[done]
+	build successfully !
+
+[2026-02-09 21:28:33]	[done]
+	build successfully !
+
+[2026-02-09 22:06:49]	[done]
+	build successfully !
+
+[2026-02-09 22:07:16]	[done]
+	build successfully !
+
+[2026-02-09 22:07:32]	[done]
+	build successfully !
+
+[2026-02-09 22:24:25]	[done]
+	build successfully !
+
+[2026-02-09 22:25:07]	[done]
+	build successfully !
+
+[2026-02-09 22:29:58]	[done]
+	build successfully !
+
+[2026-02-09 22:39:22]	[done]
+	build successfully !
+
+[2026-02-09 22:40:41]	[done]
+	build successfully !
+
+[2026-02-10 20:32:17]	[done]
+	build successfully !
+
+[2026-02-10 20:33:37]	[done]
+	build successfully !
+
+[2026-02-10 20:34:36]	[done]
+	build successfully !
+
+[2026-02-10 20:36:33]	[done]
+	build successfully !
+
+[2026-02-10 20:37:21]	[done]
+	build successfully !
+
+[2026-02-10 20:42:44]	[done]
+	build successfully !
+
+[2026-02-10 20:43:25]	[done]
+	build successfully !
+
+[2026-02-10 20:43:49]	[done]
+	build successfully !
+
+[2026-02-10 20:46:59]	[done]
+	build successfully !
+
+[2026-02-10 20:47:19]	[done]
+	build successfully !
+
+[2026-02-10 20:47:36]	[done]
+	build successfully !
+
+[2026-02-10 20:48:12]	[done]
+	build successfully !
+
+[2026-02-10 20:52:06]	[done]
+	build successfully !
+
+[2026-02-10 20:52:41]	[done]
+	build successfully !
+
+[2026-02-10 20:59:10]	compilation failed at : "e:\51_practise\FIL1.0\Timer2\Timer2.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Timer2\Timer2.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(key_state;delay;key_light;Users;.;Timer2;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Timer2\Timer2.lst") OBJECT(".\build\Target 1\.obj\Timer2\Timer2.o")
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 46 OF .\Timer2\Timer2.c: syntax error near 'unsigned', expected '__asm'
+*** ERROR C202 IN LINE 46 OF .\Timer2\Timer2.c: 'LED_Level': undefined identifier
+*** ERROR C202 IN LINE 47 OF .\Timer2\Timer2.c: 'LED_Level': undefined identifier
+*** ERROR C202 IN LINE 48 OF .\Timer2\Timer2.c: 'LED_Level': undefined identifier
+*** ERROR C202 IN LINE 49 OF .\Timer2\Timer2.c: 'LED_Level': undefined identifier
+*** ERROR C202 IN LINE 78 OF .\Timer2\Timer2.c: 'tf2': undefined identifier
+*** ERROR C141 IN LINE 78 OF .\Timer2\Timer2.c: syntax error near '}', expected ';'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  7 ERROR(S)
+
+[2026-02-10 21:00:47]	compilation failed at : "e:\51_practise\FIL1.0\Timer2\Timer2.c", exit code: 2
+command: 
+  "D:\Keill_5\C51\BIN\C51.exe" .\Timer2\Timer2.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(key_state;delay;key_light;Users;.;Timer2;D:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(".\build\Target 1\.obj\Timer2\Timer2.lst") OBJECT(".\build\Target 1\.obj\Timer2\Timer2.o")
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C202 IN LINE 86 OF .\Timer2\Timer2.c: 'tf2': undefined identifier
+*** ERROR C141 IN LINE 86 OF .\Timer2\Timer2.c: syntax error near '}', expected ';'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+[2026-02-10 21:01:03]	[done]
+	build successfully !
+
+[2026-02-10 21:01:47]	[done]
+	build successfully !
+
+[2026-02-10 21:02:48]	[done]
+	build successfully !
+
