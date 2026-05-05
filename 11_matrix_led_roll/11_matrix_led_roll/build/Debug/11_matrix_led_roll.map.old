@@ -1,0 +1,230 @@
+LX51 LINKER/LOCATER V4.66.100.0                                                         08/31/2025  12:05:52  PAGE 1
+
+
+LX51 LINKER/LOCATER V4.66.100.0, INVOKED BY:
+D:\KEILL_5\C51\BIN\LX51.EXE .\BUILD\DEBUG\.OBJ\SRC\COM\COM_UTIL.O, .\BUILD\DEBUG\.OBJ\SRC\DRI\DRI_TIMER0.O, .\BUILD\DEBU
+>> G\.OBJ\SRC\INT\INT_LED_MATRIX.O, .\BUILD\DEBUG\.OBJ\SRC\MAIN.O TO .\BUILD\DEBUG\11_MATRIX_LED_ROLL PRINT (.\build\Deb
+>> ug\11_matrix_led_roll.map) REMOVEUNUSED
+
+
+CPU MODE:     8051 MODE
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  .\BUILD\DEBUG\.OBJ\SRC\COM\COM_UTIL.O (COM_UTIL)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\DEBUG\.OBJ\SRC\DRI\DRI_TIMER0.O (DRI_TIMER0)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\DEBUG\.OBJ\SRC\INT\INT_LED_MATRIX.O (INT_LED_MATRIX)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\DEBUG\.OBJ\SRC\MAIN.O (MAIN)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  D:\KEILL_5\C51\LIB\C51S.LIB (?C_STARTUP)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\KEILL_5\C51\LIB\C51S.LIB (?C?ICALL)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\KEILL_5\C51\LIB\C51S.LIB (?C_INIT)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+
+
+ACTIVE MEMORY CLASSES OF MODULE:  .\BUILD\DEBUG\11_MATRIX_LED_ROLL (COM_UTIL)
+
+BASE        START       END         USED      MEMORY CLASS
+==========================================================
+C:000000H   C:000000H   C:00FFFFH   00023EH   CODE
+I:000000H   I:000000H   I:00007FH   00003DH   DATA
+I:000000H   I:000000H   I:0000FFH   000001H   IDATA
+
+
+MEMORY MAP OF MODULE:  .\BUILD\DEBUG\11_MATRIX_LED_ROLL (COM_UTIL)
+
+
+START     STOP      LENGTH    ALIGN  RELOC    MEMORY CLASS   SEGMENT NAME
+=========================================================================
+
+* * * * * * * * * * *   D A T A   M E M O R Y   * * * * * * * * * * * * *
+000000H   000007H   000008H   ---    AT..     DATA           "REG BANK 0"
+000008H   000022H   00001BH   BYTE   UNIT     DATA           ?DT?MAIN
+000023H   00002EH   00000CH   BYTE   UNIT     DATA           ?DT?DRI_TIMER0
+00002FH   000037H   000009H   BYTE   UNIT     DATA           ?DT?INT_LED_MATRIX
+000038H   00003CH   000005H   BYTE   UNIT     DATA           _DATA_GROUP_
+00003DH   00003DH   000001H   BYTE   UNIT     IDATA          ?STACK
+
+* * * * * * * * * * *   C O D E   M E M O R Y   * * * * * * * * * * * * *
+000000H   000002H   000003H   ---    OFFS..   CODE           ?CO??C_STARTUP?0
+000003H   000008H   000006H   BYTE   UNIT     CODE           ?C?LIB_CODE
+000009H   00000AH   000002H   ---    ---      **GAP**
+00000BH   00000DH   000003H   BYTE   OFFS..   CODE           ?DRI_TIMER0?0000B
+00000EH   000099H   00008CH   BYTE   UNIT     CODE           ?C_C51STARTUP
+00009AH   000109H   000070H   BYTE   UNIT     CODE           ?PR?DRI_TIMER0_HANDLER?DRI_TIMER0
+00010AH   00016DH   000064H   BYTE   UNIT     CODE           ?PR?_DRI_TIMER0_REGISTER_CALLBACK?DRI_TIMER0
+00016EH   000196H   000029H   BYTE   UNIT     CODE           ?PR?DRI_TIMER0_INIT?DRI_TIMER0
+000197H   0001BEH   000028H   BYTE   UNIT     CODE           ?PR?INIT_LEDMATRIX_REFRESH_TIMER0?INT_LED_MATRIX
+0001BFH   0001E1H   000023H   BYTE   UNIT     CODE           ?PR?MAIN?MAIN
+0001E2H   000202H   000021H   BYTE   UNIT     CODE           ?C_INITSEG
+000203H   000219H   000017H   BYTE   UNIT     CODE           ?PR?INIT_LEDMATRIX_INIT?INT_LED_MATRIX
+00021AH   00022CH   000013H   BYTE   UNIT     CODE           ?PR?_COM_UTIL_DELAYMS?COM_UTIL
+00022DH   00023FH   000013H   BYTE   UNIT     CODE           ?PR?_INIT_LEDMATRIX_SHIFT?INT_LED_MATRIX
+
+LX51 LINKER/LOCATER V4.66.100.0                                                       08/31/2025  12:05:52  PAGE 2
+
+
+* * * * * * * * *   R E M O V E D     S E G M E N T S   * * * * * * * *
+   *DEL*:           000045H   BYTE   UNIT     CODE           ?PR?_DRI_TIMER0_DEREGISTER_CALLBACK?DRI_TIMER0
+   *DEL*:           000003H   BYTE   UNIT     DATA           ?DT?_DRI_TIMER0_DEREGISTER_CALLBACK?DRI_TIMER0
+
+
+
+OVERLAY MAP OF MODULE:   .\BUILD\DEBUG\11_MATRIX_LED_ROLL (COM_UTIL)
+
+
+FUNCTION/MODULE                                BIT_GROUP   DATA_GROUP 
+--> CALLED FUNCTION/MODULE                    START  STOP  START  STOP
+======================================================================
+DRI_TIMER0_HANDLER/DRI_TIMER0                 ----- -----  0038H 0038H
+
+*** NEW ROOT ********************************
+
+?C_C51STARTUP                                 ----- -----  ----- -----
+  +--> MAIN/MAIN
+  +--> ?C_INITSEG
+
+MAIN/MAIN                                     ----- -----  0039H 0039H
+  +--> DRI_TIMER0_INIT/DRI_TIMER0
+  +--> INIT_LEDMATRIX_INIT/INT_LED_MATRIX
+  +--> _INIT_LEDMATRIX_SHIFT/INT_LED_MATRIX
+  +--> _COM_UTIL_DELAYMS/COM_UTIL
+
+DRI_TIMER0_INIT/DRI_TIMER0                    ----- -----  ----- -----
+
+INIT_LEDMATRIX_INIT/INT_LED_MATRIX            ----- -----  ----- -----
+  +--> INIT_LEDMATRIX_REFRESH_TIMER0/INT_LED_MATRIX
+  +--> _DRI_TIMER0_REGISTER_CALLBACK/DRI_TIMER0
+
+INIT_LEDMATRIX_REFRESH_TIMER0/INT_LED_MA+     ----- -----  ----- -----
+... TRIX
+
+_DRI_TIMER0_REGISTER_CALLBACK/DRI_TIMER0      ----- -----  003AH 003CH
+
+_INIT_LEDMATRIX_SHIFT/INT_LED_MATRIX          ----- -----  ----- -----
+
+_COM_UTIL_DELAYMS/COM_UTIL                    ----- -----  ----- -----
+
+?C_INITSEG                                    ----- -----  ----- -----
+
+
+
+PUBLIC SYMBOLS OF MODULE:  .\BUILD\DEBUG\11_MATRIX_LED_ROLL (COM_UTIL)
+
+
+      VALUE       CLASS    TYPE      PUBLIC SYMBOL NAME
+      =================================================
+      00000000H   NUMBER   ---       ?C?CODESEG
+      01000003H   CODE     ---       ?C?ICALL
+      01000007H   CODE     ---       ?C?ICALL2
+      00000000H   NUMBER   ---       ?C?XDATASEG
+      01000055H   CODE     ---       ?C_START
+      01000000H   CODE     ---       ?C_STARTUP
+      0100021AH   CODE     ---       _Com_util_DelayMs
+*DEL*:00000000H   CODE     ---       _Dri_Timer0_Deregister_Callback
+      0100010AH   CODE     ---       _Dri_Timer0_Register_Callback
+      0100022DH   CODE     ---       _Init_LEDMatrix_Shift
+      0100009AH   CODE     ---       Dri_Timer0_Handler
+      0100016EH   CODE     ---       Dri_Timer0_Init
+      01000203H   CODE     ---       Init_LEDMatrix_Init
+      01000197H   CODE     ---       Init_LEDMatrix_Refresh_Timer0
+      010001BFH   CODE     ---       main
+LX51 LINKER/LOCATER V4.66.100.0                                                       08/31/2025  12:05:52  PAGE 3
+
+
+      00000008H   DATA     ---       picture
+
+
+
+SYMBOL TABLE OF MODULE:  .\BUILD\DEBUG\11_MATRIX_LED_ROLL (COM_UTIL)
+
+      VALUE       REP       CLASS    TYPE      SYMBOL NAME
+      ====================================================
+      ---         MODULE    ---      ---       COM_UTIL
+      0100021AH   PUBLIC    CODE     ---       _Com_util_DelayMs
+
+      0100021AH   BLOCK     CODE     ---       LVL=0
+      0100021AH   BLOCK     CODE     NEAR LAB  LVL=1
+      00000006H   SYMBOL    DATA     VOID      i
+      00000005H   SYMBOL    DATA     VOID      j
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       DRI_TIMER0
+      0100009AH   PUBLIC    CODE     ---       Dri_Timer0_Handler
+      0100010AH   PUBLIC    CODE     ---       _Dri_Timer0_Register_Callback
+      0100016EH   PUBLIC    CODE     ---       Dri_Timer0_Init
+
+      0100016EH   BLOCK     CODE     ---       LVL=0
+      0100016EH   BLOCK     CODE     NEAR LAB  LVL=1
+      00000007H   SYMBOL    DATA     VOID      i
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      0100010AH   BLOCK     CODE     ---       LVL=0
+      01000110H   BLOCK     CODE     NEAR LAB  LVL=1
+      00000007H   SYMBOL    DATA     VOID      i
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+      00000007H   SYMBOL    DATA     VOID      i
+
+      0100009AH   BLOCK     CODE     ---       LVL=0
+      010000B7H   BLOCK     CODE     NEAR LAB  LVL=1
+      00000038H   SYMBOL    DATA     VOID      i
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       INT_LED_MATRIX
+      0100022DH   PUBLIC    CODE     ---       _Init_LEDMatrix_Shift
+      01000197H   PUBLIC    CODE     ---       Init_LEDMatrix_Refresh_Timer0
+      01000203H   PUBLIC    CODE     ---       Init_LEDMatrix_Init
+
+      01000203H   BLOCK     CODE     ---       LVL=0
+      01000203H   BLOCK     CODE     NEAR LAB  LVL=1
+      00000007H   SYMBOL    DATA     VOID      i
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000197H   BLOCK     CODE     ---       LVL=0
+      01000197H   BLOCK     CODE     NEAR LAB  LVL=1
+      0000002FH   SYMBOL    DATA     VOID      i
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      0100022DH   BLOCK     CODE     ---       LVL=0
+      0100022DH   BLOCK     CODE     NEAR LAB  LVL=1
+      00000006H   SYMBOL    DATA     VOID      i
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+LX51 LINKER/LOCATER V4.66.100.0                                                       08/31/2025  12:05:52  PAGE 4
+
+
+      ---         MODULE    ---      ---       MAIN
+      00000008H   PUBLIC    DATA     ---       picture
+      010001BFH   PUBLIC    CODE     ---       main
+
+      010001BFH   BLOCK     CODE     ---       LVL=0
+      010001BFH   BLOCK     CODE     NEAR LAB  LVL=1
+      00000039H   SYMBOL    DATA     VOID      i
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       ?C_STARTUP
+      01000000H   PUBLIC    CODE     ---       ?C_STARTUP
+
+      ---         MODULE    ---      ---       ?C?ICALL
+      01000003H   PUBLIC    CODE     ---       ?C?ICALL
+      01000007H   PUBLIC    CODE     ---       ?C?ICALL2
+
+      ---         MODULE    ---      ---       ?C_INIT
+      01000055H   PUBLIC    CODE     ---       ?C_START
+
+Program Size: data=62.0 xdata=0 const=0 code=574
+LX51 RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

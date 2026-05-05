@@ -1,0 +1,264 @@
+LX51 LINKER/LOCATER V4.66.100.0                                                         09/01/2025  21:28:52  PAGE 1
+
+
+LX51 LINKER/LOCATER V4.66.100.0, INVOKED BY:
+D:\KEILL_5\C51\BIN\LX51.EXE .\BUILD\DEBUG\.OBJ\SRC\COM\COM_UTIL.O, .\BUILD\DEBUG\.OBJ\SRC\DRI\DRI_TIMER0.O, .\BUILD\DEBU
+>> G\.OBJ\SRC\DRI\DRI_UART.O, .\BUILD\DEBUG\.OBJ\SRC\MAIN.O TO .\BUILD\DEBUG\SERIAL_PART PRINT (.\build\Debug\serial_par
+>> t.map) REMOVEUNUSED
+
+
+CPU MODE:     8051 MODE
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  .\BUILD\DEBUG\.OBJ\SRC\COM\COM_UTIL.O (COM_UTIL)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\DEBUG\.OBJ\SRC\DRI\DRI_TIMER0.O (DRI_TIMER0)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\DEBUG\.OBJ\SRC\DRI\DRI_UART.O (DRI_UART)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\DEBUG\.OBJ\SRC\MAIN.O (MAIN)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  D:\KEILL_5\C51\LIB\C51S.LIB (?C_STARTUP)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\KEILL_5\C51\LIB\C51S.LIB (?C?CLDPTR)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\KEILL_5\C51\LIB\C51S.LIB (?C?CSTOPTR)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\KEILL_5\C51\LIB\C51S.LIB (?C?ICALL)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\KEILL_5\C51\LIB\C51S.LIB (?C?STRCMP)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\KEILL_5\C51\LIB\C51S.LIB (?C_INIT)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+
+
+ACTIVE MEMORY CLASSES OF MODULE:  .\BUILD\DEBUG\SERIAL_PART (COM_UTIL)
+
+BASE        START       END         USED      MEMORY CLASS
+==========================================================
+C:000000H   C:000000H   C:00FFFFH   00049AH   CODE
+I:000000H   I:000000H   I:00007FH   00003BH   DATA
+I:000020H.0 I:000020H.0 I:00002FH.7 000000H.2 BIT
+C:000000H   C:000000H   C:00FFFFH   000030H   CONST
+I:000000H   I:000000H   I:0000FFH   000001H   IDATA
+
+
+MEMORY MAP OF MODULE:  .\BUILD\DEBUG\SERIAL_PART (COM_UTIL)
+
+
+START     STOP      LENGTH    ALIGN  RELOC    MEMORY CLASS   SEGMENT NAME
+=========================================================================
+
+* * * * * * * * * * *   D A T A   M E M O R Y   * * * * * * * * * * * * *
+000000H   000007H   000008H   ---    AT..     DATA           "REG BANK 0"
+000008H   00001CH   000015H   BYTE   UNIT     DATA           _DATA_GROUP_
+00001DH.0 00001FH.7 000003H.0 ---    ---      **GAP**
+000020H.0 000020H.1 000000H.2 BIT    UNIT     BIT            ?BI?DRI_UART
+000020H.2 000020H   000000H.6 ---    ---      **GAP**
+000021H   000032H   000012H   BYTE   UNIT     DATA           ?DT?DRI_UART
+000033H   00003EH   00000CH   BYTE   UNIT     DATA           ?DT?DRI_TIMER0
+00003FH   00003FH   000001H   BYTE   UNIT     IDATA          ?STACK
+
+* * * * * * * * * * *   C O D E   M E M O R Y   * * * * * * * * * * * * *
+000000H   000002H   000003H   ---    OFFS..   CODE           ?CO??C_STARTUP?0
+000003H   00000AH   000008H   BYTE   UNIT     CODE           ?PR?_DRI_UART_SENDCHAR?DRI_UART
+00000BH   00000DH   000003H   BYTE   OFFS..   CODE           ?DRI_TIMER0?0000B
+00000EH   000020H   000013H   BYTE   UNIT     CODE           ?PR?_DRI_UART_SENDSTR?DRI_UART
+000021H   000022H   000002H   ---    ---      **GAP**
+LX51 LINKER/LOCATER V4.66.100.0                                                       09/01/2025  21:28:52  PAGE 2
+
+
+000023H   000025H   000003H   BYTE   OFFS..   CODE           ?DRI_UART?00023
+000026H   000201H   0001DCH   BYTE   UNIT     CODE           ?C?LIB_CODE
+000202H   00028DH   00008CH   BYTE   UNIT     CODE           ?C_C51STARTUP
+00028EH   0002FDH   000070H   BYTE   UNIT     CODE           ?PR?DRI_TIMER0_HANDLER?DRI_TIMER0
+0002FEH   000361H   000064H   BYTE   UNIT     CODE           ?PR?_DRI_TIMER0_REGISTER_CALLBACK?DRI_TIMER0
+000362H   0003B9H   000058H   BYTE   UNIT     CODE           ?PR?MAIN?MAIN
+0003BAH   0003FEH   000045H   BYTE   UNIT     CODE           ?PR?_DRI_UART_RECEVIESTR?DRI_UART
+0003FFH   00042BH   00002DH   BYTE   UNIT     CODE           ?PR?DRI_UART_HANDLER?DRI_UART
+00042CH   000455H   00002AH   BYTE   UNIT     CODE           ?PR?DRI_UART_INIT?DRI_UART
+000456H   00047EH   000029H   BYTE   UNIT     CODE           ?PR?DRI_TIMER0_INIT?DRI_TIMER0
+00047FH   000490H   000012H   BYTE   UNIT     CODE           ?PR?DRI_UART_TIMER0CALLBACK?DRI_UART
+000491H   00049BH   00000BH   BYTE   UNIT     CODE           ?C_INITSEG
+00049CH   0004CBH   000030H   BYTE   UNIT     CONST          ?CO?MAIN
+
+* * * * * * * * *   R E M O V E D     S E G M E N T S   * * * * * * * *
+   *DEL*:           000013H   BYTE   UNIT     CODE           ?PR?_COM_UTIL_DELAYMS?COM_UTIL
+   *DEL*:           000045H   BYTE   UNIT     CODE           ?PR?_DRI_TIMER0_DEREGISTER_CALLBACK?DRI_TIMER0
+   *DEL*:           000003H   BYTE   UNIT     DATA           ?DT?_DRI_TIMER0_DEREGISTER_CALLBACK?DRI_TIMER0
+
+
+
+OVERLAY MAP OF MODULE:   .\BUILD\DEBUG\SERIAL_PART (COM_UTIL)
+
+
+FUNCTION/MODULE                                BIT_GROUP   DATA_GROUP 
+--> CALLED FUNCTION/MODULE                    START  STOP  START  STOP
+======================================================================
+DRI_TIMER0_HANDLER/DRI_TIMER0                 ----- -----  0008H 0008H
+
+*** NEW ROOT ********************************
+
+DRI_UART_HANDLER/DRI_UART                     ----- -----  ----- -----
+
+*** NEW ROOT ********************************
+
+?C_C51STARTUP                                 ----- -----  ----- -----
+  +--> MAIN/MAIN
+  +--> ?C_INITSEG
+
+MAIN/MAIN                                     ----- -----  0009H 0018H
+  +--> DRI_TIMER0_INIT/DRI_TIMER0
+  +--> DRI_UART_INIT/DRI_UART
+  +--> _DRI_UART_RECEVIESTR/DRI_UART
+  +--> _DRI_UART_SENDSTR/DRI_UART
+
+DRI_TIMER0_INIT/DRI_TIMER0                    ----- -----  ----- -----
+
+DRI_UART_INIT/DRI_UART                        ----- -----  ----- -----
+  +--> DRI_UART_TIMER0CALLBACK/DRI_UART
+  +--> _DRI_TIMER0_REGISTER_CALLBACK/DRI_TIMER0
+
+DRI_UART_TIMER0CALLBACK/DRI_UART              ----- -----  ----- -----
+
+_DRI_TIMER0_REGISTER_CALLBACK/DRI_TIMER0      ----- -----  0019H 001BH
+
+_DRI_UART_RECEVIESTR/DRI_UART                 ----- -----  0019H 001CH
+
+_DRI_UART_SENDSTR/DRI_UART                    ----- -----  ----- -----
+  +--> _DRI_UART_SENDCHAR/DRI_UART
+
+_DRI_UART_SENDCHAR/DRI_UART                   ----- -----  ----- -----
+
+?C_INITSEG                                    ----- -----  ----- -----
+
+
+LX51 LINKER/LOCATER V4.66.100.0                                                       09/01/2025  21:28:52  PAGE 3
+
+
+
+PUBLIC SYMBOLS OF MODULE:  .\BUILD\DEBUG\SERIAL_PART (COM_UTIL)
+
+
+      VALUE       CLASS    TYPE      PUBLIC SYMBOL NAME
+      =================================================
+      01000026H   CODE     ---       ?C?CLDPTR
+      00000000H   NUMBER   ---       ?C?CODESEG
+      0100003FH   CODE     ---       ?C?CSTOPTR
+      01000061H   CODE     ---       ?C?ICALL
+      01000065H   CODE     ---       ?C?ICALL2
+      010001E5H   CODE     ---       ?C?STRCMP
+      00000000H   NUMBER   ---       ?C?XDATASEG
+      01000249H   CODE     ---       ?C_START
+      01000000H   CODE     ---       ?C_STARTUP
+*DEL*:00000000H   CODE     ---       _Com_util_DelayMs
+*DEL*:00000000H   CODE     ---       _Dri_Timer0_Deregister_Callback
+      010002FEH   CODE     ---       _Dri_Timer0_Register_Callback
+      010003BAH   CODE     ---       _Dri_Uart_RecevieStr
+      01000003H   CODE     ---       _Dri_Uart_SendChar
+      0100000EH   CODE     ---       _Dri_Uart_SendStr
+      0100028EH   CODE     ---       Dri_Timer0_Handler
+      01000456H   CODE     ---       Dri_Timer0_Init
+      010003FFH   CODE     ---       Dri_Uart_Handler
+      0100042CH   CODE     ---       Dri_Uart_Init
+      0100047FH   CODE     ---       Dri_Uart_Timer0Callback
+      01000362H   CODE     ---       main
+
+
+
+SYMBOL TABLE OF MODULE:  .\BUILD\DEBUG\SERIAL_PART (COM_UTIL)
+
+      VALUE       REP       CLASS    TYPE      SYMBOL NAME
+      ====================================================
+      ---         MODULE    ---      ---       COM_UTIL
+      00000006H   SYMBOL    DATA     VOID      i
+      00000005H   SYMBOL    DATA     VOID      j
+
+      ---         MODULE    ---      ---       DRI_TIMER0
+      0100028EH   PUBLIC    CODE     ---       Dri_Timer0_Handler
+      010002FEH   PUBLIC    CODE     ---       _Dri_Timer0_Register_Callback
+      01000456H   PUBLIC    CODE     ---       Dri_Timer0_Init
+
+      01000456H   BLOCK     CODE     ---       LVL=0
+      01000456H   BLOCK     CODE     NEAR LAB  LVL=1
+      00000007H   SYMBOL    DATA     VOID      i
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      010002FEH   BLOCK     CODE     ---       LVL=0
+      01000304H   BLOCK     CODE     NEAR LAB  LVL=1
+      00000007H   SYMBOL    DATA     VOID      i
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+      00000007H   SYMBOL    DATA     VOID      i
+
+      0100028EH   BLOCK     CODE     ---       LVL=0
+      010002ABH   BLOCK     CODE     NEAR LAB  LVL=1
+      00000008H   SYMBOL    DATA     VOID      i
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       DRI_UART
+      010003FFH   PUBLIC    CODE     ---       Dri_Uart_Handler
+      0100000EH   PUBLIC    CODE     ---       _Dri_Uart_SendStr
+LX51 LINKER/LOCATER V4.66.100.0                                                       09/01/2025  21:28:52  PAGE 4
+
+
+      010003BAH   PUBLIC    CODE     ---       _Dri_Uart_RecevieStr
+      01000003H   PUBLIC    CODE     ---       _Dri_Uart_SendChar
+      0100042CH   PUBLIC    CODE     ---       Dri_Uart_Init
+      0100047FH   PUBLIC    CODE     ---       Dri_Uart_Timer0Callback
+
+      0100047FH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      0100042CH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000003H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      010003BAH   BLOCK     CODE     ---       LVL=0
+      010003C3H   BLOCK     CODE     NEAR LAB  LVL=1
+      0000001CH   SYMBOL    DATA     VOID      i
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      0100000EH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      010003FFH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       MAIN
+      01000362H   PUBLIC    CODE     ---       main
+
+      01000362H   BLOCK     CODE     ---       LVL=0
+      01000362H   BLOCK     CODE     NEAR LAB  LVL=1
+      00000009H   SYMBOL    DATA     VOID      str
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       ?C_STARTUP
+      01000000H   PUBLIC    CODE     ---       ?C_STARTUP
+
+      ---         MODULE    ---      ---       ?C?CLDPTR
+      01000026H   PUBLIC    CODE     ---       ?C?CLDPTR
+
+      ---         MODULE    ---      ---       ?C?CSTOPTR
+      0100003FH   PUBLIC    CODE     ---       ?C?CSTOPTR
+
+      ---         MODULE    ---      ---       ?C?ICALL
+      01000061H   PUBLIC    CODE     ---       ?C?ICALL
+      01000065H   PUBLIC    CODE     ---       ?C?ICALL2
+
+      ---         MODULE    ---      ---       ?C?STRCMP
+      010001E5H   PUBLIC    CODE     ---       ?C?STRCMP
+
+      ---         MODULE    ---      ---       ?C_INIT
+      01000249H   PUBLIC    CODE     ---       ?C_START
+
+Program Size: data=60.2 xdata=0 const=48 code=1178
+LX51 RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
