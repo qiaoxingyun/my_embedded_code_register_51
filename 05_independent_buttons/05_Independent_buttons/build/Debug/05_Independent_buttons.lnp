@@ -1,0 +1,2 @@
+.\build\Debug\.obj\src\Com\Com_util.o,.\build\Debug\.obj\src\main.o TO .\build\Debug\05_Independent_buttons
+PRINT(.\build\Debug\05_Independent_buttons.map) REMOVEUNUSED

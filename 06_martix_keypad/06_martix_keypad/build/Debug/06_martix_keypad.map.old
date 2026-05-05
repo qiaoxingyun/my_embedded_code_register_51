@@ -1,0 +1,203 @@
+LX51 LINKER/LOCATER V4.66.100.0                                                         08/30/2025  17:40:18  PAGE 1
+
+
+LX51 LINKER/LOCATER V4.66.100.0, INVOKED BY:
+D:\KEILL_5\C51\BIN\LX51.EXE .\BUILD\DEBUG\.OBJ\SRC\COM\COM_UTIL.O, .\BUILD\DEBUG\.OBJ\SRC\DRI\DRI_DIGITALTUBE_MATRIX.O, 
+>> .\BUILD\DEBUG\.OBJ\SRC\MAIN.O TO .\BUILD\DEBUG\06_MARTIX_KEYPAD PRINT (.\build\Debug\06_martix_keypad.map) REMOVEUNUS
+>> ED
+
+
+CPU MODE:     8051 MODE
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  .\BUILD\DEBUG\.OBJ\SRC\COM\COM_UTIL.O (COM_UTIL)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\DEBUG\.OBJ\SRC\DRI\DRI_DIGITALTUBE_MATRIX.O (DRI_DIGITALTUBE_MATRIX)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\DEBUG\.OBJ\SRC\MAIN.O (MAIN)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  D:\KEILL_5\C51\LIB\C51S.LIB (?C_STARTUP)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\KEILL_5\C51\LIB\C51S.LIB (?C?COPY)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\KEILL_5\C51\LIB\C51S.LIB (?C?ULDIV)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\KEILL_5\C51\LIB\C51S.LIB (?C?ULCMP)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\KEILL_5\C51\LIB\C51S.LIB (?C_INIT)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+
+
+ACTIVE MEMORY CLASSES OF MODULE:  .\BUILD\DEBUG\06_MARTIX_KEYPAD (COM_UTIL)
+
+BASE        START       END         USED      MEMORY CLASS
+==========================================================
+C:000000H   C:000000H   C:00FFFFH   0003AFH   CODE
+I:000000H   I:000000H   I:00007FH   000024H   DATA
+C:000000H   C:000000H   C:00FFFFH   000008H   CONST
+I:000000H   I:000000H   I:0000FFH   000001H   IDATA
+
+
+MEMORY MAP OF MODULE:  .\BUILD\DEBUG\06_MARTIX_KEYPAD (COM_UTIL)
+
+
+START     STOP      LENGTH    ALIGN  RELOC    MEMORY CLASS   SEGMENT NAME
+=========================================================================
+
+* * * * * * * * * * *   D A T A   M E M O R Y   * * * * * * * * * * * * *
+000000H   000007H   000008H   ---    AT..     DATA           "REG BANK 0"
+000008H   000019H   000012H   BYTE   UNIT     DATA           ?DT?DRI_DIGITALTUBE_MATRIX
+00001AH   000023H   00000AH   BYTE   UNIT     DATA           _DATA_GROUP_
+000024H   000024H   000001H   BYTE   UNIT     IDATA          ?STACK
+
+* * * * * * * * * * *   C O D E   M E M O R Y   * * * * * * * * * * * * *
+000000H   000002H   000003H   ---    OFFS..   CODE           ?CO??C_STARTUP?0
+000003H   0001D7H   0001D5H   BYTE   UNIT     CODE           ?C?LIB_CODE
+0001D8H   000263H   00008CH   BYTE   UNIT     CODE           ?C_C51STARTUP
+000264H   0002DDH   00007AH   BYTE   UNIT     CODE           ?PR?CHECK_MATRIX_KEYPAD?MAIN
+0002DEH   000349H   00006CH   BYTE   UNIT     CODE           ?PR?_DRI_DIGITALTUBE_DISPLAYNUM?DRI_DIGITALTUBE_MATRIX
+00034AH   000367H   00001EH   BYTE   UNIT     CODE           ?PR?DRI_DIGITALTUBE_REFRESH?DRI_DIGITALTUBE_MATRIX
+000368H   00037DH   000016H   BYTE   UNIT     CODE           ?PR?MAIN?MAIN
+00037EH   000390H   000013H   BYTE   UNIT     CODE           ?PR?_COM_UTIL_DELAYMS?COM_UTIL
+000391H   0003A1H   000011H   BYTE   UNIT     CODE           ?PR?_DRI_DIGITALTUBE_DISPLAYSINGLE?DRI_DIGITALTUBE_MATRIX
+0003A2H   0003AEH   00000DH   BYTE   UNIT     CODE           ?C_INITSEG
+0003AFH   0003B6H   000008H   BYTE   UNIT     CONST          ?CO?MAIN
+
+
+
+LX51 LINKER/LOCATER V4.66.100.0                                                       08/30/2025  17:40:18  PAGE 2
+
+
+OVERLAY MAP OF MODULE:   .\BUILD\DEBUG\06_MARTIX_KEYPAD (COM_UTIL)
+
+
+FUNCTION/MODULE                                BIT_GROUP   DATA_GROUP 
+--> CALLED FUNCTION/MODULE                    START  STOP  START  STOP
+======================================================================
+?C_C51STARTUP                                 ----- -----  ----- -----
+  +--> MAIN/MAIN
+  +--> ?C_INITSEG
+
+MAIN/MAIN                                     ----- -----  ----- -----
+  +--> CHECK_MATRIX_KEYPAD/MAIN
+  +--> _DRI_DIGITALTUBE_DISPLAYNUM/DRI_DIGITALTUBE_MATRIX
+  +--> DRI_DIGITALTUBE_REFRESH/DRI_DIGITALTUBE_MATRIX
+
+CHECK_MATRIX_KEYPAD/MAIN                      ----- -----  001AH 0023H
+  +--> _COM_UTIL_DELAYMS/COM_UTIL
+
+_COM_UTIL_DELAYMS/COM_UTIL                    ----- -----  ----- -----
+
+_DRI_DIGITALTUBE_DISPLAYNUM/DRI_DIGITALT+     ----- -----  001AH 001EH
+... UBE_MATRIX
+
+DRI_DIGITALTUBE_REFRESH/DRI_DIGITALTUBE_+     ----- -----  001AH 001AH
+... MATRIX
+  +--> _DRI_DIGITALTUBE_DISPLAYSINGLE/DRI_DIGITALTUBE_MATRIX
+  +--> _COM_UTIL_DELAYMS/COM_UTIL
+
+_DRI_DIGITALTUBE_DISPLAYSINGLE/DRI_DIGIT+     ----- -----  ----- -----
+... ALTUBE_MATRIX
+
+?C_INITSEG                                    ----- -----  ----- -----
+
+
+
+PUBLIC SYMBOLS OF MODULE:  .\BUILD\DEBUG\06_MARTIX_KEYPAD (COM_UTIL)
+
+
+      VALUE       CLASS    TYPE      PUBLIC SYMBOL NAME
+      =================================================
+      00000000H   NUMBER   ---       ?C?CODESEG
+      010000D3H   CODE     ---       ?C?COPY
+      010001C7H   CODE     ---       ?C?ULCMP
+      01000135H   CODE     ---       ?C?ULDIV
+      00000000H   NUMBER   ---       ?C?XDATASEG
+      0100021FH   CODE     ---       ?C_START
+      01000000H   CODE     ---       ?C_STARTUP
+      0100037EH   CODE     ---       _Com_util_DelayMs
+      010002DEH   CODE     ---       _Dri_DigitalTube_Displaynum
+      01000391H   CODE     ---       _Dri_DigitalTube_DisplaySingle
+      00000012H   DATA     ---       buffer
+      01000264H   CODE     ---       Check_Matrix_Keypad
+      0100034AH   CODE     ---       Dri_DigitalTube_Refresh
+      01000368H   CODE     ---       main
+
+
+
+SYMBOL TABLE OF MODULE:  .\BUILD\DEBUG\06_MARTIX_KEYPAD (COM_UTIL)
+
+      VALUE       REP       CLASS    TYPE      SYMBOL NAME
+      ====================================================
+      ---         MODULE    ---      ---       COM_UTIL
+      0100037EH   PUBLIC    CODE     ---       _Com_util_DelayMs
+
+      0100037EH   BLOCK     CODE     ---       LVL=0
+LX51 LINKER/LOCATER V4.66.100.0                                                       08/30/2025  17:40:18  PAGE 3
+
+
+      0100037EH   BLOCK     CODE     NEAR LAB  LVL=1
+      00000006H   SYMBOL    DATA     VOID      i
+      00000005H   SYMBOL    DATA     VOID      j
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       DRI_DIGITALTUBE_MATRIX
+      00000012H   PUBLIC    DATA     ---       buffer
+      0100034AH   PUBLIC    CODE     ---       Dri_DigitalTube_Refresh
+      010002DEH   PUBLIC    CODE     ---       _Dri_DigitalTube_Displaynum
+      01000391H   PUBLIC    CODE     ---       _Dri_DigitalTube_DisplaySingle
+
+      01000391H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      010002DEH   BLOCK     CODE     ---       LVL=0
+      010002E6H   BLOCK     CODE     NEAR LAB  LVL=1
+      0000001EH   SYMBOL    DATA     VOID      i
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      0100034AH   BLOCK     CODE     ---       LVL=0
+      0100034AH   BLOCK     CODE     NEAR LAB  LVL=1
+      0000001AH   SYMBOL    DATA     VOID      i
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       MAIN
+      01000368H   PUBLIC    CODE     ---       main
+      01000264H   PUBLIC    CODE     ---       Check_Matrix_Keypad
+
+      01000264H   BLOCK     CODE     ---       LVL=0
+      01000264H   BLOCK     CODE     NEAR LAB  LVL=1
+      0000001AH   SYMBOL    DATA     VOID      i
+      0000001BH   SYMBOL    DATA     VOID      j
+      0000001CH   SYMBOL    DATA     VOID      colums
+      00000020H   SYMBOL    DATA     VOID      lines
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000368H   BLOCK     CODE     ---       LVL=0
+      01000368H   BLOCK     CODE     NEAR LAB  LVL=1
+      00000007H   SYMBOL    DATA     VOID      key
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       ?C_STARTUP
+      01000000H   PUBLIC    CODE     ---       ?C_STARTUP
+
+      ---         MODULE    ---      ---       ?C?COPY
+      010000D3H   PUBLIC    CODE     ---       ?C?COPY
+
+      ---         MODULE    ---      ---       ?C?ULDIV
+      01000135H   PUBLIC    CODE     ---       ?C?ULDIV
+
+      ---         MODULE    ---      ---       ?C?ULCMP
+      010001C7H   PUBLIC    CODE     ---       ?C?ULCMP
+
+      ---         MODULE    ---      ---       ?C_INIT
+      0100021FH   PUBLIC    CODE     ---       ?C_START
+
+Program Size: data=37.0 xdata=0 const=8 code=943
+LX51 RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,2 @@
+.\build\Debug\.obj\src\Com\Com_util.o,.\build\Debug\.obj\src\Dri\Dri_DigitalTube_Matrix.o,.\build\Debug\.obj\src\main.o TO .\build\Debug\06_martix_keypad
+PRINT(.\build\Debug\06_martix_keypad.map) REMOVEUNUSED

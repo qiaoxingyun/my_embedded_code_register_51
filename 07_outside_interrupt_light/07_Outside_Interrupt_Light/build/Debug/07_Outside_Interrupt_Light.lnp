@@ -1,0 +1,2 @@
+.\build\Debug\.obj\src\Com\Com_util.o,.\build\Debug\.obj\src\main.o TO .\build\Debug\07_Outside_Interrupt_Light
+PRINT(.\build\Debug\07_Outside_Interrupt_Light.map) REMOVEUNUSED
