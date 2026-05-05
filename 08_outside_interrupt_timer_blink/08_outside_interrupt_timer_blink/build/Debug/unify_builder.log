@@ -1,0 +1,36 @@
+[2025-08-30 21:43:14]	[done]
+	build successfully !
+
+[2025-08-30 21:43:50]	[done]
+	build successfully !
+
+[2025-08-30 21:44:48]	[done]
+	build successfully !
+
+[2025-08-30 21:52:48]	[done]
+	build successfully !
+
+[2025-08-30 21:53:18]	compilation failed at : "e:\51_practise\08_outside_interrupt_timer_blink\08_outside_interrupt_timer_blink\src\main.c", exit code: 2
+command: 
+  "d:\Keill_5\C51\BIN\C51.exe" .\src\main.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(d:/Keill_5/C51/INC/STC;src/App;src/Com;src/Dri;src/Int;d:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(.\build\Debug\.obj\src\main.lst) OBJECT(.\build\Debug\.obj\src\main.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** WARNING C318 IN LINE 3 OF .\src\main.c: can't open file 'STC89C5xRC_RDP.H'
+*** ERROR C202 IN LINE 13 OF .\src\main.c: 'EA': undefined identifier
+*** ERROR C202 IN LINE 14 OF .\src\main.c: 'ET0': undefined identifier
+*** ERROR C202 IN LINE 15 OF .\src\main.c: 'TMOD': undefined identifier
+*** ERROR C202 IN LINE 16 OF .\src\main.c: 'TMOD': undefined identifier
+*** ERROR C202 IN LINE 20 OF .\src\main.c: 'TL0': undefined identifier
+*** ERROR C202 IN LINE 21 OF .\src\main.c: 'TH0': undefined identifier
+*** ERROR C202 IN LINE 22 OF .\src\main.c: 'TR0': undefined identifier
+*** ERROR C202 IN LINE 33 OF .\src\main.c: 'TL0': undefined identifier
+*** ERROR C202 IN LINE 34 OF .\src\main.c: 'TH0': undefined identifier
+*** ERROR C202 IN LINE 40 OF .\src\main.c: 'P00': undefined identifier
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  10 ERROR(S)
+
+[2025-08-30 21:53:46]	[done]
+	build successfully !
+

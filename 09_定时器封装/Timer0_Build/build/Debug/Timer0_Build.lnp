@@ -1,0 +1,2 @@
+.\build\Debug\.obj\src\Com\Com_util.o,.\build\Debug\.obj\src\Dri\Dri_Timer0.o,.\build\Debug\.obj\src\Int\Int_init.o,.\build\Debug\.obj\src\main.o TO .\build\Debug\Timer0_Build
+PRINT(.\build\Debug\Timer0_Build.map) REMOVEUNUSED

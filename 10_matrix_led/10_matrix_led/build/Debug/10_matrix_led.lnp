@@ -1,0 +1,2 @@
+.\build\Debug\.obj\src\Com\Com_util.o,.\build\Debug\.obj\src\Dri\Dri_Timer0.o,.\build\Debug\.obj\src\Int\Int_LED_Matrix.o,.\build\Debug\.obj\src\main.o TO .\build\Debug\10_matrix_led
+PRINT(.\build\Debug\10_matrix_led.map) REMOVEUNUSED

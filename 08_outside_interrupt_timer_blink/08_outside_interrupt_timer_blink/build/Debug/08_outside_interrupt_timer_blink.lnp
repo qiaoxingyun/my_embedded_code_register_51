@@ -1,0 +1,2 @@
+.\build\Debug\.obj\src\Com\Com_util.o,.\build\Debug\.obj\src\main.o TO .\build\Debug\08_outside_interrupt_timer_blink
+PRINT(.\build\Debug\08_outside_interrupt_timer_blink.map) REMOVEUNUSED

@@ -1,0 +1,77 @@
+{
+    "name": "Timer0_Build",
+    "target": "Debug",
+    "toolchain": "Keil_C51",
+    "toolchainLocation": "d:\\Keill_5\\C51",
+    "toolchainCfgFile": "c:\\Users\\乔星云\\.vscode\\extensions\\cl.eide-3.25.3\\res\\data\\models/8051.keil.model.json",
+    "buildMode": "normal|multhread",
+    "showRepathOnLog": true,
+    "threadNum": 12,
+    "rootDir": "e:\\51_practise\\09_定时器封装\\Timer0_Build",
+    "dumpPath": "build\\Debug",
+    "outDir": "build\\Debug",
+    "incDirs": [
+        "d:/Keill_5/C51/INC/STC",
+        "src/App",
+        "src/Com",
+        "src/Dri",
+        "src/Int",
+        "d:/Keill_5/C51/INC"
+    ],
+    "libDirs": [],
+    "defines": [
+        "__UVISION_VERSION=526"
+    ],
+    "sourceList": [
+        "src/Com/Com_util.c",
+        "src/Dri/Dri_Timer0.c",
+        "src/Int/Int_init.c",
+        "src/main.c"
+    ],
+    "alwaysInBuildSources": [],
+    "sourceParams": {},
+    "options": {
+        "version": 2,
+        "beforeBuildTasks": [],
+        "afterBuildTasks": [],
+        "global": {
+            "ram-mode": "SMALL",
+            "rom-mode": "LARGE"
+        },
+        "c/cpp-compiler": {
+            "optimization-type": "SPEED",
+            "optimization-level": "level-8",
+            "optimization": "8,SPEED"
+        },
+        "asm-compiler": {},
+        "linker": {
+            "remove-unused": true,
+            "output-format": "elf"
+        }
+    },
+    "env": {
+        "workspaceFolder": "e:\\51_practise\\09_定时器封装\\Timer0_Build",
+        "workspaceFolderBasename": "Timer0_Build",
+        "OutDir": "e:\\51_practise\\09_定时器封装\\Timer0_Build\\build\\Debug",
+        "OutDirRoot": "build",
+        "OutDirBase": "build\\Debug",
+        "ProjectName": "Timer0_Build",
+        "ConfigName": "Debug",
+        "ProjectRoot": "e:\\51_practise\\09_定时器封装\\Timer0_Build",
+        "ExecutableName": "e:\\51_practise\\09_定时器封装\\Timer0_Build\\build\\Debug\\Timer0_Build",
+        "ChipPackDir": "",
+        "ChipName": "",
+        "SYS_Platform": "win32",
+        "SYS_DirSep": "\\",
+        "SYS_DirSeparator": "\\",
+        "SYS_PathSep": ";",
+        "SYS_PathSeparator": ";",
+        "SYS_EOL": "\r\n",
+        "EIDE_BUILDER_DIR": "c:\\Users\\乔星云\\.vscode\\extensions\\cl.eide-3.25.3\\res\\tools\\win32\\unify_builder",
+        "EIDE_BINARIES_VER": "12.1.1",
+        "EIDE_MSYS": "C:\\Users\\乔星云\\.eide\\bin\\builder\\msys\\bin",
+        "EIDE_PY3_CMD": "C:\\Users\\乔星云\\.eide\\bin\\python36\\python3.exe",
+        "ToolchainRoot": "d:\\Keill_5\\C51"
+    },
+    "sysPaths": []
+}

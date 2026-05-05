@@ -1,0 +1,50 @@
+[2025-08-30 22:30:55]	compilation failed at : "e:\51_practise\09_定时器封装\Timer0_Build\src\Dri\Dri_Timer0.c", exit code: 2
+command: 
+  "d:\Keill_5\C51\BIN\C51.exe" .\src\Dri\Dri_Timer0.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(d:/Keill_5/C51/INC/STC;src/App;src/Com;src/Dri;src/Int;d:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(.\build\Debug\.obj\src\Dri\Dri_Timer0.lst) OBJECT(.\build\Debug\.obj\src\Dri\Dri_Timer0.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C193 IN LINE 28 OF .\src\Dri\Dri_Timer0.c: '=': illegal type conversion from/to 'void'
+*** ERROR C158 IN LINE 34 OF .\src\Dri\Dri_Timer0.c: '_Dri_Timer0_Register_Callback': function contains unnamed parameter
+*** ERROR C158 IN LINE 57 OF .\src\Dri\Dri_Timer0.c: '_Dri_Timer0_Deregister_Callback': function contains unnamed parameter
+*** ERROR C211 IN LINE 82 OF .\src\Dri\Dri_Timer0.c: call not to a function
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  4 ERROR(S)
+
+[2025-08-30 22:31:32]	compilation failed at : "e:\51_practise\09_定时器封装\Timer0_Build\src\Dri\Dri_Timer0.c", exit code: 2
+command: 
+  "d:\Keill_5\C51\BIN\C51.exe" .\src\Dri\Dri_Timer0.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(d:/Keill_5/C51/INC/STC;src/App;src/Com;src/Dri;src/Int;d:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(.\build\Debug\.obj\src\Dri\Dri_Timer0.lst) OBJECT(.\build\Debug\.obj\src\Dri\Dri_Timer0.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C193 IN LINE 28 OF .\src\Dri\Dri_Timer0.c: '==': illegal type conversion from/to 'void'
+*** ERROR C158 IN LINE 34 OF .\src\Dri\Dri_Timer0.c: '_Dri_Timer0_Register_Callback': function contains unnamed parameter
+*** ERROR C158 IN LINE 57 OF .\src\Dri\Dri_Timer0.c: '_Dri_Timer0_Deregister_Callback': function contains unnamed parameter
+*** ERROR C211 IN LINE 82 OF .\src\Dri\Dri_Timer0.c: call not to a function
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  4 ERROR(S)
+
+[2025-08-30 22:33:05]	compilation failed at : "e:\51_practise\09_定时器封装\Timer0_Build\src\Dri\Dri_Timer0.c", exit code: 2
+command: 
+  "d:\Keill_5\C51\BIN\C51.exe" .\src\Dri\Dri_Timer0.c OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(d:/Keill_5/C51/INC/STC;src/App;src/Com;src/Dri;src/Int;d:/Keill_5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) PRINT(.\build\Debug\.obj\src\Dri\Dri_Timer0.lst) OBJECT(.\build\Debug\.obj\src\Dri\Dri_Timer0.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C158 IN LINE 34 OF .\src\Dri\Dri_Timer0.c: '_Dri_Timer0_Register_Callback': function contains unnamed parameter
+*** ERROR C158 IN LINE 57 OF .\src\Dri\Dri_Timer0.c: '_Dri_Timer0_Deregister_Callback': function contains unnamed parameter
+*** ERROR C211 IN LINE 82 OF .\src\Dri\Dri_Timer0.c: call not to a function
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  3 ERROR(S)
+
+[2025-08-30 22:34:58]	[done]
+	build successfully !
+
+[2025-08-30 22:35:58]	[done]
+	build successfully !
+
+[2025-08-30 22:36:15]	[done]
+	build successfully !
+

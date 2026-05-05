@@ -1,0 +1,6 @@
+tool: KEIL_C51
+fileName: '10_matrix_led.map'
+elfName: '10_matrix_led'
+compilerName: 'C51 COMPILER'
+compilerFullName: 'C51 COMPILER V9.60.7.0 - SN: K1DZC-2SZX4C'
+compilerPath: 'd:\Keill_5\C51\BIN\C51.exe'
