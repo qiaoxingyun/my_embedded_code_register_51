@@ -1,0 +1,2 @@
+.\build\Debug\.obj\src\Com\Com_util.o,.\build\Debug\.obj\src\main.o TO .\build\Debug\03_Digital_Tube_static
+PRINT(.\build\Debug\03_Digital_Tube_static.map) REMOVEUNUSED

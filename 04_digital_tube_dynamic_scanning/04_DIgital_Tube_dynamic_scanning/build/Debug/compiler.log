@@ -1,0 +1,14 @@
+>>> cc
+
+
+
+>>> ld
+
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+@e:\51_practise\04_digital_tube_dynamic_scanning\04_DIgital_Tube_dynamic_scanning\build\Debug\04_DIgital_Tube_dynamic_scanning.lnp .\build\Debug\.obj\src\Com\Com_util.o,.\build\Debug\.obj\src\main.o TO .\build\Debug\04_DIgital_Tube_dynamic_scanning
+PRINT(.\build\Debug\04_DIgital_Tube_dynamic_scanning.map) REMOVEUNUSED
+
+Program Size: data=27.0 xdata=0 const=0 code=265
+LX51 RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

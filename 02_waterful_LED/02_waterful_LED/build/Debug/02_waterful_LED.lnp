@@ -1,0 +1,2 @@
+.\build\Debug\.obj\src\Com\Com_util.o,.\build\Debug\.obj\src\main.o TO .\build\Debug\02_waterful_LED
+PRINT(.\build\Debug\02_waterful_LED.map) REMOVEUNUSED

@@ -1,0 +1,14 @@
+>>> cc
+
+
+
+>>> ld
+
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-2SZX4C
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+@e:\51_practise\02_waterful_LED\02_waterful_LED\build\Debug\02_waterful_LED.lnp .\build\Debug\.obj\src\Com\Com_util.o,.\build\Debug\.obj\src\main.o TO .\build\Debug\02_waterful_LED
+PRINT(.\build\Debug\02_waterful_LED.map) REMOVEUNUSED
+
+Program Size: data=10.0 xdata=0 const=0 code=62
+LX51 RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
